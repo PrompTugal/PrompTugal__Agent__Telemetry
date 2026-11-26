@@ -21,3 +21,7 @@
 - Old conductor session (22:48Z 25 Nov to 16:37Z 26 Nov): final $91.30 API-equivalent, 441,334 in, 523,816 out, 312,934,717 cache read, 2,880,124 cache write; 8 repositories attached; context 504,709 at the end. Earlier readings: $26.61 (02:38), $58.34 (11:15).
 - New session (created 16:38Z): first reading 16:40Z, usage field not yet in the record, context 0, 1 repository attached.
 - Series and limits: conductor-reset-2026-11-26.json. I will add a reading per wake, three each side as asked.
+
+## Session replacements noted at 2026-11-26T18:37Z (from the conductor's notice, 18:37Z; data, not verified by me)
+- Replaced since my 15:54 reading: cl-6.abp (live session_016CrbJLnbr219cU3eVRGxBW), cl-6.devops (session_016CrbJK7qgEKhvrRXNs9wCo), cl-6.journalist (session_016CrbJNYGCQ9RLyq8e7aVU7), and cl-6.conductor (session_016CrbJMiN8eUtML9vvvGCVt since 16:38Z). New: cl-6.place.london (session_016CrbJKifSCoGBhUJDMMjpN), cl-6.data.london (session_016CrbJMrN6VztFm2YVXmp3b).
+- At my next reading (21:13 UTC wake) mark these as reset or replaced, read old and new ids, and keep the old sessions' final totals. The cl-6.maestro sessions.json lists every live id.
