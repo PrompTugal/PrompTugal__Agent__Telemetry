@@ -1,0 +1,133 @@
+{
+ "agent": "rights@PrompTugal.dinis",
+ "date": "2026-11-19",
+ "model": "unknown",
+ "reads": [
+  {
+   "read_at": "2026-11-19T00:35Z",
+   "cumulative_cost_usd": 0.72,
+   "delta_cost_usd": 0.72,
+   "input_tokens": 58,
+   "output_tokens": 12022
+  },
+  {
+   "read_at": "2026-11-19T01:35Z",
+   "cumulative_cost_usd": 1.29,
+   "delta_cost_usd": 0.57,
+   "input_tokens": 96,
+   "output_tokens": 25131
+  },
+  {
+   "read_at": "2026-11-19T02:40Z",
+   "cumulative_cost_usd": 2.07,
+   "delta_cost_usd": 0.78,
+   "input_tokens": 1662,
+   "output_tokens": 39155
+  },
+  {
+   "read_at": "2026-11-19T03:35Z",
+   "cumulative_cost_usd": 2.2,
+   "delta_cost_usd": 0.13,
+   "input_tokens": 1670,
+   "output_tokens": 40828
+  },
+  {
+   "read_at": "2026-11-19T04:35Z",
+   "cumulative_cost_usd": 2.38,
+   "delta_cost_usd": 0.18,
+   "input_tokens": 1679,
+   "output_tokens": 43868
+  },
+  {
+   "read_at": "2026-11-19T05:35Z",
+   "cumulative_cost_usd": 2.45,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1683,
+   "output_tokens": 44803
+  },
+  {
+   "read_at": "2026-11-19T06:35Z",
+   "cumulative_cost_usd": 2.51,
+   "delta_cost_usd": 0.06,
+   "input_tokens": 1687,
+   "output_tokens": 45625
+  },
+  {
+   "read_at": "2026-11-19T07:35Z",
+   "cumulative_cost_usd": 2.58,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1691,
+   "output_tokens": 46482
+  },
+  {
+   "read_at": "2026-11-19T08:35Z",
+   "cumulative_cost_usd": 2.65,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1695,
+   "output_tokens": 47267
+  },
+  {
+   "read_at": "2026-11-19T09:35Z",
+   "cumulative_cost_usd": 2.73,
+   "delta_cost_usd": 0.08,
+   "input_tokens": 1699,
+   "output_tokens": 48153
+  },
+  {
+   "read_at": "2026-11-19T10:35Z",
+   "cumulative_cost_usd": 2.8,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1703,
+   "output_tokens": 48938
+  },
+  {
+   "read_at": "2026-11-19T11:35Z",
+   "cumulative_cost_usd": 2.87,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1706,
+   "output_tokens": 49723
+  },
+  {
+   "read_at": "2026-11-19T12:35Z",
+   "cumulative_cost_usd": 3.64,
+   "delta_cost_usd": 0.77,
+   "input_tokens": 1710,
+   "output_tokens": 50508
+  },
+  {
+   "read_at": "2026-11-19T13:35Z",
+   "cumulative_cost_usd": 3.71,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1714,
+   "output_tokens": 51293
+  },
+  {
+   "read_at": "2026-11-19T14:35Z",
+   "cumulative_cost_usd": 4.16,
+   "delta_cost_usd": 0.45,
+   "input_tokens": 1736,
+   "output_tokens": 58169
+  },
+  {
+   "read_at": "2026-11-19T15:35Z",
+   "cumulative_cost_usd": 4.23,
+   "delta_cost_usd": 0.07,
+   "input_tokens": 1740,
+   "output_tokens": 58976
+  },
+  {
+   "read_at": "2026-11-19T16:35Z",
+   "cumulative_cost_usd": 4.58,
+   "delta_cost_usd": 0.35,
+   "input_tokens": 1757,
+   "output_tokens": 62474
+  },
+  {
+   "read_at": "2026-11-19T20:35Z",
+   "cumulative_cost_usd": 6.48,
+   "delta_cost_usd": 1.9,
+   "input_tokens": 2307,
+   "output_tokens": 74129
+  }
+ ]
+}

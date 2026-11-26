@@ -1,0 +1,60 @@
+{
+ "agent": "civic.b@PrompTugal.dinis",
+ "date": "2026-11-18",
+ "model": "opus",
+ "cumulative_cost_usd": 26.6304,
+ "delta_cost_usd_since_15:30Z": 3.5,
+ "input_tokens": 176713,
+ "output_tokens": 166341,
+ "reads": [
+  {
+   "read_at": "2026-11-18T17:35Z",
+   "cumulative_cost_usd": 30.8,
+   "delta_cost_usd": 4.17,
+   "input_tokens": 177277,
+   "output_tokens": 196032
+  },
+  {
+   "read_at": "2026-11-18T18:45Z",
+   "cumulative_cost_usd": 30.8,
+   "delta_cost_usd": 0.0,
+   "input_tokens": 177277,
+   "output_tokens": 196032
+  },
+  {
+   "read_at": "2026-11-18T19:35Z",
+   "cumulative_cost_usd": 30.8,
+   "delta_cost_usd": 0.0,
+   "input_tokens": 177277,
+   "output_tokens": 196032
+  },
+  {
+   "read_at": "2026-11-18T20:35Z",
+   "cumulative_cost_usd": 38.58,
+   "delta_cost_usd": 7.78,
+   "input_tokens": 177312,
+   "output_tokens": 211034
+  },
+  {
+   "read_at": "2026-11-18T21:35Z",
+   "cumulative_cost_usd": 38.58,
+   "delta_cost_usd": 0.0,
+   "input_tokens": 177312,
+   "output_tokens": 211034
+  },
+  {
+   "read_at": "2026-11-18T22:35Z",
+   "cumulative_cost_usd": 47.13,
+   "delta_cost_usd": 8.55,
+   "input_tokens": 180366,
+   "output_tokens": 229594
+  },
+  {
+   "read_at": "2026-11-18T23:35Z",
+   "cumulative_cost_usd": 48.88,
+   "delta_cost_usd": 1.75,
+   "input_tokens": 180941,
+   "output_tokens": 256195
+  }
+ ]
+}

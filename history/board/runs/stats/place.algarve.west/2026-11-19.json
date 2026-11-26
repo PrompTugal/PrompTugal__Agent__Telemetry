@@ -1,0 +1,133 @@
+{
+ "agent": "place.algarve.west@PrompTugal.dinis",
+ "date": "2026-11-19",
+ "model": "sonnet",
+ "reads": [
+  {
+   "read_at": "2026-11-19T00:35Z",
+   "cumulative_cost_usd": 25.18,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3325555,
+   "output_tokens": 491148
+  },
+  {
+   "read_at": "2026-11-19T01:35Z",
+   "cumulative_cost_usd": 25.38,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3325561,
+   "output_tokens": 491530
+  },
+  {
+   "read_at": "2026-11-19T02:40Z",
+   "cumulative_cost_usd": 25.58,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3325567,
+   "output_tokens": 491912
+  },
+  {
+   "read_at": "2026-11-19T03:35Z",
+   "cumulative_cost_usd": 25.77,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 3325573,
+   "output_tokens": 492294
+  },
+  {
+   "read_at": "2026-11-19T04:35Z",
+   "cumulative_cost_usd": 25.96,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 3325579,
+   "output_tokens": 492677
+  },
+  {
+   "read_at": "2026-11-19T05:35Z",
+   "cumulative_cost_usd": 26.16,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3325585,
+   "output_tokens": 493058
+  },
+  {
+   "read_at": "2026-11-19T06:35Z",
+   "cumulative_cost_usd": 26.35,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 3325590,
+   "output_tokens": 493432
+  },
+  {
+   "read_at": "2026-11-19T07:35Z",
+   "cumulative_cost_usd": 27.21,
+   "delta_cost_usd": 0.86,
+   "input_tokens": 3450481,
+   "output_tokens": 529579
+  },
+  {
+   "read_at": "2026-11-19T08:35Z",
+   "cumulative_cost_usd": 27.41,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3450487,
+   "output_tokens": 530003
+  },
+  {
+   "read_at": "2026-11-19T09:35Z",
+   "cumulative_cost_usd": 27.61,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 3450493,
+   "output_tokens": 530370
+  },
+  {
+   "read_at": "2026-11-19T10:35Z",
+   "cumulative_cost_usd": 28.42,
+   "delta_cost_usd": 0.81,
+   "input_tokens": 3566321,
+   "output_tokens": 543670
+  },
+  {
+   "read_at": "2026-11-19T11:35Z",
+   "cumulative_cost_usd": 28.63,
+   "delta_cost_usd": 0.21,
+   "input_tokens": 3566327,
+   "output_tokens": 544094
+  },
+  {
+   "read_at": "2026-11-19T12:35Z",
+   "cumulative_cost_usd": 29.52,
+   "delta_cost_usd": 0.89,
+   "input_tokens": 3755650,
+   "output_tokens": 576162
+  },
+  {
+   "read_at": "2026-11-19T13:35Z",
+   "cumulative_cost_usd": 29.73,
+   "delta_cost_usd": 0.21,
+   "input_tokens": 3755656,
+   "output_tokens": 576566
+  },
+  {
+   "read_at": "2026-11-19T14:35Z",
+   "cumulative_cost_usd": 29.96,
+   "delta_cost_usd": 0.23,
+   "input_tokens": 3755662,
+   "output_tokens": 578957
+  },
+  {
+   "read_at": "2026-11-19T15:35Z",
+   "cumulative_cost_usd": 30.17,
+   "delta_cost_usd": 0.21,
+   "input_tokens": 3755667,
+   "output_tokens": 579340
+  },
+  {
+   "read_at": "2026-11-19T16:35Z",
+   "cumulative_cost_usd": 30.96,
+   "delta_cost_usd": 0.79,
+   "input_tokens": 3755689,
+   "output_tokens": 582311
+  },
+  {
+   "read_at": "2026-11-19T20:35Z",
+   "cumulative_cost_usd": 34.64,
+   "delta_cost_usd": 3.68,
+   "input_tokens": 4059207,
+   "output_tokens": 633651
+  }
+ ]
+}

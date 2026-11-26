@@ -1,0 +1,112 @@
+{
+ "agent": "maestro.b (account-b)",
+ "date": "2026-11-19",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-19T03:35Z",
+   "cumulative_cost_usd": 8.35,
+   "delta_cost_usd": 8.35,
+   "input_tokens": 2916,
+   "output_tokens": 74099
+  },
+  {
+   "read_at": "2026-11-19T04:35Z",
+   "cumulative_cost_usd": 8.87,
+   "delta_cost_usd": 0.52,
+   "input_tokens": 2926,
+   "output_tokens": 78046
+  },
+  {
+   "read_at": "2026-11-19T05:35Z",
+   "cumulative_cost_usd": 9.28,
+   "delta_cost_usd": 0.41,
+   "input_tokens": 2934,
+   "output_tokens": 80618
+  },
+  {
+   "read_at": "2026-11-19T06:35Z",
+   "cumulative_cost_usd": 9.68,
+   "delta_cost_usd": 0.4,
+   "input_tokens": 2941,
+   "output_tokens": 83105
+  },
+  {
+   "read_at": "2026-11-19T07:35Z",
+   "cumulative_cost_usd": 10.87,
+   "delta_cost_usd": 1.19,
+   "input_tokens": 2965,
+   "output_tokens": 91635
+  },
+  {
+   "read_at": "2026-11-19T08:35Z",
+   "cumulative_cost_usd": 11.31,
+   "delta_cost_usd": 0.44,
+   "input_tokens": 2972,
+   "output_tokens": 94216
+  },
+  {
+   "read_at": "2026-11-19T09:35Z",
+   "cumulative_cost_usd": 11.75,
+   "delta_cost_usd": 0.44,
+   "input_tokens": 2980,
+   "output_tokens": 96716
+  },
+  {
+   "read_at": "2026-11-19T10:35Z",
+   "cumulative_cost_usd": 12.18,
+   "delta_cost_usd": 0.43,
+   "input_tokens": 2987,
+   "output_tokens": 98512
+  },
+  {
+   "read_at": "2026-11-19T11:35Z",
+   "cumulative_cost_usd": 12.6,
+   "delta_cost_usd": 0.42,
+   "input_tokens": 2995,
+   "output_tokens": 100378
+  },
+  {
+   "read_at": "2026-11-19T12:35Z",
+   "cumulative_cost_usd": 13.22,
+   "delta_cost_usd": 0.62,
+   "input_tokens": 3006,
+   "output_tokens": 103094
+  },
+  {
+   "read_at": "2026-11-19T13:35Z",
+   "cumulative_cost_usd": 15.23,
+   "delta_cost_usd": 2.01,
+   "input_tokens": 3038,
+   "output_tokens": 116992
+  },
+  {
+   "read_at": "2026-11-19T14:35Z",
+   "cumulative_cost_usd": 15.72,
+   "delta_cost_usd": 0.49,
+   "input_tokens": 3045,
+   "output_tokens": 119869
+  },
+  {
+   "read_at": "2026-11-19T15:35Z",
+   "cumulative_cost_usd": 16.45,
+   "delta_cost_usd": 0.73,
+   "input_tokens": 3056,
+   "output_tokens": 123339
+  },
+  {
+   "read_at": "2026-11-19T16:35Z",
+   "cumulative_cost_usd": 18.28,
+   "delta_cost_usd": 1.83,
+   "input_tokens": 3084,
+   "output_tokens": 131931
+  },
+  {
+   "read_at": "2026-11-19T20:35Z",
+   "cumulative_cost_usd": 21.75,
+   "delta_cost_usd": 3.47,
+   "input_tokens": 3132,
+   "output_tokens": 150596
+  }
+ ]
+}

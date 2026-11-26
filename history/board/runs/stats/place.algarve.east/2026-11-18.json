@@ -1,0 +1,60 @@
+{
+ "agent": "place.algarve.east@PrompTugal.dinis",
+ "date": "2026-11-18",
+ "model": "sonnet",
+ "cumulative_cost_usd": 20.5191,
+ "delta_cost_usd_since_15:30Z": 0.61,
+ "input_tokens": 2540364,
+ "output_tokens": 384147,
+ "reads": [
+  {
+   "read_at": "2026-11-18T17:35Z",
+   "cumulative_cost_usd": 20.72,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 2540370,
+   "output_tokens": 384790
+  },
+  {
+   "read_at": "2026-11-18T18:45Z",
+   "cumulative_cost_usd": 20.97,
+   "delta_cost_usd": 0.25,
+   "input_tokens": 2540377,
+   "output_tokens": 385658
+  },
+  {
+   "read_at": "2026-11-18T19:35Z",
+   "cumulative_cost_usd": 21.16,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 2540383,
+   "output_tokens": 386267
+  },
+  {
+   "read_at": "2026-11-18T20:35Z",
+   "cumulative_cost_usd": 21.35,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 2540389,
+   "output_tokens": 386893
+  },
+  {
+   "read_at": "2026-11-18T21:35Z",
+   "cumulative_cost_usd": 21.54,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 2540395,
+   "output_tokens": 387502
+  },
+  {
+   "read_at": "2026-11-18T22:35Z",
+   "cumulative_cost_usd": 21.74,
+   "delta_cost_usd": 0.2,
+   "input_tokens": 2540401,
+   "output_tokens": 388111
+  },
+  {
+   "read_at": "2026-11-18T23:35Z",
+   "cumulative_cost_usd": 21.93,
+   "delta_cost_usd": 0.19,
+   "input_tokens": 2540407,
+   "output_tokens": 388747
+  }
+ ]
+}
