@@ -6,8 +6,8 @@
 - Largest rises since 02:38: security $46.34 (now $61.76), infra $37.57 ($78.53), conductor $31.73 ($58.34), dev $13.33 ($16.74), library $8.23 ($12.13), reviewer $7.72 ($9.04).
 - Context fill: security at 781,975 tokens, which is at the 784,000 compaction threshold the harness reports for a 1M window; dev 507,253, library 426,325, reviewer 412,626.
 
-## Flags (sent to cl-6.accountant and the conductor)
-- No per-agent budgets are known to me. The only figure I have is the accountant's planning figure of $84 a day (as their session summary reports); $409 in about 12.5 hours is well above it.
+## Flags (sent to cl-6.accountant and the conductor at 11:15 UTC; budget comparison sent at 2026-11-26T11:18Z)
+- Budgets: board/budgets.json in the website (cl-6.accountant cannot read it yet) has per-day figures from 16 Nov (updated 2026-11-16T19:40Z, old agent names, a measure and never a reason to stop an agent). Against them, over after about 12.5 hours: security $61.76 against $30 a day, conductor $58.34 against $50. 24 sessions have no entry (among them infra, library, data, places, the section agents, analyst, programme, checker, curator, reviewer, telemetry, rights). The accountant's planning range for the whole team is $41.50 to $166.80 a day (their estimate, which I have not read); $409 so far is above it.
 - security is the largest single rise and is at its compaction threshold.
 
 ## Open
