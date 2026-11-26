@@ -11,7 +11,7 @@
 - security is the largest single rise and is at its compaction threshold.
 
 ## Open
-- No ABP grant naming cl-6.telemetry yet: no transcript reads (tools, hosts, refusals, breaches), no website stats paths. Counts of tools, hosts, refusals and breaches are therefore not measured.
-- Run report (R10) filed by hand: runs/cl-6.telemetry@PrompTugal.dinis/2026-11-26T11-14-39Z.json.
+- ABP grant read at 2026-11-26T11:18Z (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.telemetry.md): it grants list_sessions and get_session and sub-agents; reading another session's transcript is NOT granted (proposed relaxation pending). So tools, hosts, refusals and breaches per agent stay unmeasured until Dinis decides; usage and cost are in grant.
+- Run report (R10) filed by hand: runs/cl-6.telemetry/2026-11-26T11-14-39Z.json.
 - Raw-detail vault, per-agent lists for abp, telemetry page: not started.
 - Next wake: 21:13 Lisbon.
