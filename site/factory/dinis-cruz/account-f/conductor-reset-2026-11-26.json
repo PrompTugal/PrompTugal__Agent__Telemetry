@@ -1,0 +1,62 @@
+{
+ "about": "Conductor spend either side of the session reset at 2026-11-26T16:38Z, for cl-6.accountant's cost-reduction track (asked by the new conductor session at 16:41Z). API-equivalent cost_usd from get_session; no transcripts.",
+ "reset": {
+  "at": "2026-11-26T16:38Z",
+  "old_session": "session_016CrbJKttr9TiHHDsuGnmF1",
+  "new_session": "session_016CrbJMiN8eUtML9vvvGCVt",
+  "old_title_now": "[ARCHIVED, replaced 26 Nov 16:38] cl-6.conductor@PrompTugal.dinis"
+ },
+ "old_session_readings": [
+  {
+   "read_at": "2026-11-26T02:38Z",
+   "cost_usd": 26.61,
+   "output_tokens": 256300,
+   "source": "usage-2026-11-26.json"
+  },
+  {
+   "read_at": "2026-11-26T11:15Z",
+   "cost_usd": 58.34,
+   "output_tokens": 372246,
+   "context_used_tokens": 132167,
+   "source": "usage-2026-11-26-1115.json"
+  },
+  {
+   "read_at": "2026-11-26T15:53:21Z",
+   "cost_usd": 73.42,
+   "input_tokens": 423270,
+   "output_tokens": 463574,
+   "cache_read_tokens": 236181670,
+   "cache_write_tokens": 2726547,
+   "context_used_tokens": 351132,
+   "source": "usage-2026-11-26-1555.json"
+  },
+  {
+   "read_at": "2026-11-26T16:40Z (after archiving; last update of the session 16:37:49Z)",
+   "cost_usd": 91.3,
+   "input_tokens": 441334,
+   "output_tokens": 523816,
+   "cache_read_tokens": 312934717,
+   "cache_write_tokens": 2880124,
+   "context_used_tokens": 504709,
+   "worker_epoch": 18,
+   "repositories_attached": 8,
+   "note": "final: the session is archived, so these totals are the old session's whole life (22:48Z 25 Nov to 16:37Z 26 Nov)"
+  }
+ ],
+ "new_session_readings": [
+  {
+   "read_at": "2026-11-26T16:40Z",
+   "usage": "absent in the record at this read (not zero: the field is missing)",
+   "context_used_tokens": 0,
+   "worker_epoch": 1,
+   "repositories_attached": 1,
+   "model": "opus",
+   "note": "first reading, two minutes after the session was created"
+  }
+ ],
+ "next": "Per wake (my wakes: 21:13 and 10:13 Lisbon, which is UTC in November): add one reading for the new session and, for comparison, the old session's final totals above; keep three wakes each side. No 'wake' exists for the old session after the reset, so its three 'before' readings are 02:38, 11:15 and 15:54 UTC (earlier readings of mine, not scheduled wakes).",
+ "limits": [
+  "I have no reading between 15:54 and 16:38, so 'just before' is the archived session's final totals (updated 16:37:49Z), which cover the whole life of the old session, not an interval.",
+  "Whether the new conductor spends less depends on what it reads; usage data alone does not say why."
+ ]
+}

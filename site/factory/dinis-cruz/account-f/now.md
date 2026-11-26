@@ -16,3 +16,8 @@
 - R10 run report for the 11:15 wake is filed by hand (runs/cl-6.telemetry/2026-11-26T11-14-39Z.json). This 15:54 read-out was not a scheduled wake; no separate report filed.
 - Raw-detail vault, per-agent lists for abp, telemetry page: not started.
 - Next wake: 21:13 Lisbon.
+
+## Conductor reset (asked at 16:41Z by the new conductor session, for cl-6.accountant)
+- Old conductor session (22:48Z 25 Nov to 16:37Z 26 Nov): final $91.30 API-equivalent, 441,334 in, 523,816 out, 312,934,717 cache read, 2,880,124 cache write; 8 repositories attached; context 504,709 at the end. Earlier readings: $26.61 (02:38), $58.34 (11:15).
+- New session (created 16:38Z): first reading 16:40Z, usage field not yet in the record, context 0, 1 repository attached.
+- Series and limits: conductor-reset-2026-11-26.json. I will add a reading per wake, three each side as asked.
