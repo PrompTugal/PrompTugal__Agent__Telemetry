@@ -1,16 +1,17 @@
-# Now (updated 2026-11-26T02:38Z)
+# Now (updated 2026-11-26T11:17Z)
 
-## Done
-- Key published (site/keys/cl-6.telemetry.json) and in the website's board/keys.json (telemetry-promptugal-cl-6). History moved to history/ (184 files, provenance, git log). This area.
-- First usage pass over this night's restart: usage-2026-11-26.json, one row per session, from get_session usage only (no transcripts).
+## This wake (first scheduled, 2026-11-26T11:17Z; usage-2026-11-26-1115.json)
+- 49 cl-6 sessions: 20 running, 27 idle, 2 archived. Status and usage only (get_session); no transcripts.
+- API-equivalent cost $409.05, up $253.15 from $155.90 at 02:38 UTC. Opus $210.88, Sonnet $198.17.
+- Largest rises since 02:38: security $46.34 (now $61.76), infra $37.57 ($78.53), conductor $31.73 ($58.34), dev $13.33 ($16.74), library $8.23 ($12.13), reviewer $7.72 ($9.04).
+- Context fill: security at 781,975 tokens, which is at the 784,000 compaction threshold the harness reports for a 1M window; dev 507,253, library 426,325, reviewer 412,626.
 
-## This night's restart, as of about 02:38 UTC, 26 Nov 2026
-- 49 cl-6 sessions seen since 25 Nov 22:48 UTC: 27 running, 20 idle, 2 archived (fringe, swarm).
-- API-equivalent cost so far about $155.90: Opus about $93.42 (infra $40.96, conductor $26.61, security $15.42, router, decisions, helm, security@dinis, strategy), Sonnet about $62.48.
-- Highest: infra $40.96, conductor $26.61, security $15.42, router@dinis $4.68, library $3.90. Every other session is under $3.50.
-- These are single reads and still rising. The accountant's estimate for 41 sessions was $42 to $167 a day (planning figure $84), as their session summary reports; I have not read their file and have not projected a day's total.
+## Flags (sent to cl-6.accountant and the conductor)
+- No per-agent budgets are known to me. The only figure I have is the accountant's planning figure of $84 a day (as their session summary reports); $409 in about 12.5 hours is well above it.
+- security is the largest single rise and is at its compaction threshold.
 
 ## Open
-- No ABP grant for me yet (cl-6.abp), so no transcript reads and no writes to the website's stats paths. The numbers here are status-level only: no tools, hosts, refusals or sub-agents.
-- Raw detail vault, per-agent end-of-run lists for abp, and a telemetry page: carried from telemetry.b, not started.
-- My wake: 10:13 and 21:13 Lisbon.
+- No ABP grant naming cl-6.telemetry yet: no transcript reads (tools, hosts, refusals, breaches), no website stats paths. Counts of tools, hosts, refusals and breaches are therefore not measured.
+- Run report (R10) filed by hand: runs/cl-6.telemetry@PrompTugal.dinis/2026-11-26T11-14-39Z.json.
+- Raw-detail vault, per-agent lists for abp, telemetry page: not started.
+- Next wake: 21:13 Lisbon.

@@ -1,0 +1,508 @@
+{
+ "as_of": "2026-11-26T11:17Z",
+ "previous": "2026-11-26T02:38Z (usage-2026-11-26.json)",
+ "scope": "get_session usage only, no transcripts; cost_usd is API-equivalent as reported at read time",
+ "sessions": 49,
+ "total_cost_usd": 409.05,
+ "previous_total_cost_usd": 155.9,
+ "delta_cost_usd": 253.15,
+ "by_model_usd": {
+  "opus": 210.88,
+  "sonnet": 198.17
+ },
+ "running": 20,
+ "idle": 27,
+ "archived": 2,
+ "rows": [
+  {
+   "agent": "analyst",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.38,
+   "output_tokens": 32603,
+   "context_used_tokens": 189895,
+   "delta_cost_usd": 1.53,
+   "delta_output_tokens": 15123
+  },
+  {
+   "agent": "programme",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.58,
+   "output_tokens": 21868,
+   "context_used_tokens": 169650,
+   "delta_cost_usd": 0.55,
+   "delta_output_tokens": 1195
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 5.59,
+   "output_tokens": 89155,
+   "context_used_tokens": 266578,
+   "delta_cost_usd": 4.84,
+   "delta_output_tokens": 71896
+  },
+  {
+   "agent": "curator",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.9,
+   "output_tokens": 33541,
+   "context_used_tokens": 205808,
+   "delta_cost_usd": 2.14,
+   "delta_output_tokens": 17731
+  },
+  {
+   "agent": "reviewer",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 9.04,
+   "output_tokens": 59903,
+   "context_used_tokens": 412626,
+   "delta_cost_usd": 7.72,
+   "delta_output_tokens": 36985
+  },
+  {
+   "agent": "customers",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.72,
+   "output_tokens": 19927,
+   "context_used_tokens": 158747,
+   "delta_cost_usd": 0.87,
+   "delta_output_tokens": 3332
+  },
+  {
+   "agent": "investors",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.46,
+   "output_tokens": 23161,
+   "context_used_tokens": 152691,
+   "delta_cost_usd": 0.42,
+   "delta_output_tokens": 1601
+  },
+  {
+   "agent": "backup",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 3.09,
+   "output_tokens": 18361,
+   "context_used_tokens": 226313,
+   "delta_cost_usd": 1.4,
+   "delta_output_tokens": 247
+  },
+  {
+   "agent": "outreach",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 0.76,
+   "output_tokens": 10019,
+   "context_used_tokens": 108682,
+   "delta_cost_usd": 0.42,
+   "delta_output_tokens": 2673
+  },
+  {
+   "agent": "researcher",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.55,
+   "output_tokens": 39616,
+   "context_used_tokens": 217661,
+   "delta_cost_usd": 1.32,
+   "delta_output_tokens": 11918
+  },
+  {
+   "agent": "historian",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.36,
+   "output_tokens": 26910,
+   "context_used_tokens": 172782,
+   "delta_cost_usd": 1.52,
+   "delta_output_tokens": 10872
+  },
+  {
+   "agent": "telemetry",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 3.77,
+   "output_tokens": 44811,
+   "context_used_tokens": 228368,
+   "delta_cost_usd": 2.11,
+   "delta_output_tokens": 19514
+  },
+  {
+   "agent": "translator",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 6.53,
+   "output_tokens": 52357,
+   "context_used_tokens": 312764,
+   "delta_cost_usd": 5.59,
+   "delta_output_tokens": 38411
+  },
+  {
+   "agent": "rights",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 3.7,
+   "output_tokens": 26682,
+   "context_used_tokens": 246809,
+   "delta_cost_usd": 2.69,
+   "delta_output_tokens": 10458
+  },
+  {
+   "agent": "synthetic",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.73,
+   "output_tokens": 23193,
+   "context_used_tokens": 177858,
+   "delta_cost_usd": 0.85,
+   "delta_output_tokens": 6657
+  },
+  {
+   "agent": "sherpa",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.56,
+   "output_tokens": 43512,
+   "context_used_tokens": 221842,
+   "delta_cost_usd": 2.26,
+   "delta_output_tokens": 37953
+  },
+  {
+   "agent": "devops",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 6.03,
+   "output_tokens": 37846,
+   "context_used_tokens": 299120,
+   "delta_cost_usd": 4.26,
+   "delta_output_tokens": 15352
+  },
+  {
+   "agent": "observability",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 6.28,
+   "output_tokens": 28259,
+   "context_used_tokens": 307864,
+   "delta_cost_usd": 3.96,
+   "delta_output_tokens": 3971
+  },
+  {
+   "agent": "ontologist",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 5.19,
+   "output_tokens": 50404,
+   "context_used_tokens": 288810,
+   "delta_cost_usd": 4.23,
+   "delta_output_tokens": 35396
+  },
+  {
+   "agent": "accountant",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.06,
+   "output_tokens": 12725,
+   "context_used_tokens": 117918,
+   "delta_cost_usd": 0.74,
+   "delta_output_tokens": 6463
+  },
+  {
+   "agent": "designer",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 4.76,
+   "output_tokens": 57970,
+   "context_used_tokens": 270140,
+   "delta_cost_usd": 3.63,
+   "delta_output_tokens": 36386
+  },
+  {
+   "agent": "places",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 8.19,
+   "output_tokens": 73548,
+   "context_used_tokens": 357653,
+   "delta_cost_usd": 4.76,
+   "delta_output_tokens": 21558
+  },
+  {
+   "agent": "correspondent",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 3.84,
+   "output_tokens": 35866,
+   "context_used_tokens": 225713,
+   "delta_cost_usd": 2.89,
+   "delta_output_tokens": 18856
+  },
+  {
+   "agent": "security",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 61.76,
+   "output_tokens": 198430,
+   "context_used_tokens": 781975,
+   "delta_cost_usd": 46.34,
+   "delta_output_tokens": 124849
+  },
+  {
+   "agent": "dev",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 16.74,
+   "output_tokens": 173824,
+   "context_used_tokens": 507253,
+   "delta_cost_usd": 13.33,
+   "delta_output_tokens": 113752
+  },
+  {
+   "agent": "website-attach-session (untitled)",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 8.96,
+   "output_tokens": 66560,
+   "context_used_tokens": 408098,
+   "delta_cost_usd": 7.62,
+   "delta_output_tokens": 54587
+  },
+  {
+   "agent": "swarm",
+   "model": "sonnet",
+   "status": "archived",
+   "cost_usd": 1.34,
+   "output_tokens": 24944,
+   "context_used_tokens": 183512,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "fringe",
+   "model": "sonnet",
+   "status": "archived",
+   "cost_usd": 3.07,
+   "output_tokens": 31400,
+   "context_used_tokens": 247984,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "bulletins",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 3.75,
+   "output_tokens": 47487,
+   "context_used_tokens": 230517,
+   "delta_cost_usd": 2.57,
+   "delta_output_tokens": 21399
+  },
+  {
+   "agent": "videos",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 4.32,
+   "output_tokens": 50768,
+   "context_used_tokens": 244444,
+   "delta_cost_usd": 2.72,
+   "delta_output_tokens": 22674
+  },
+  {
+   "agent": "live",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 7.88,
+   "output_tokens": 37654,
+   "context_used_tokens": 338972,
+   "delta_cost_usd": 5.8,
+   "delta_output_tokens": 13953
+  },
+  {
+   "agent": "events",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 3.74,
+   "output_tokens": 49917,
+   "context_used_tokens": 233020,
+   "delta_cost_usd": 2.41,
+   "delta_output_tokens": 21991
+  },
+  {
+   "agent": "cyber",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 9.48,
+   "output_tokens": 53068,
+   "context_used_tokens": 379400,
+   "delta_cost_usd": 7.05,
+   "delta_output_tokens": 22892
+  },
+  {
+   "agent": "signals",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 4.13,
+   "output_tokens": 55751,
+   "context_used_tokens": 234675,
+   "delta_cost_usd": 2.67,
+   "delta_output_tokens": 26497
+  },
+  {
+   "agent": "library",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 12.13,
+   "output_tokens": 56950,
+   "context_used_tokens": 426325,
+   "delta_cost_usd": 8.23,
+   "delta_output_tokens": 20348
+  },
+  {
+   "agent": "startups",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 5.48,
+   "output_tokens": 65074,
+   "context_used_tokens": 277320,
+   "delta_cost_usd": 4.05,
+   "delta_output_tokens": 39165
+  },
+  {
+   "agent": "civic",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 5.03,
+   "output_tokens": 57883,
+   "context_used_tokens": 289062,
+   "delta_cost_usd": 3.71,
+   "delta_output_tokens": 35184
+  },
+  {
+   "agent": "travel",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 3.52,
+   "output_tokens": 47299,
+   "context_used_tokens": 216065,
+   "delta_cost_usd": 1.97,
+   "delta_output_tokens": 12800
+  },
+  {
+   "agent": "weather",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 4.61,
+   "output_tokens": 31547,
+   "context_used_tokens": 295812,
+   "delta_cost_usd": 2.3,
+   "delta_output_tokens": 3819
+  },
+  {
+   "agent": "data",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 9.45,
+   "output_tokens": 51211,
+   "context_used_tokens": 378118,
+   "delta_cost_usd": 6.71,
+   "delta_output_tokens": 28708
+  },
+  {
+   "agent": "abp",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 4.89,
+   "output_tokens": 66535,
+   "context_used_tokens": 274859,
+   "delta_cost_usd": 3.85,
+   "delta_output_tokens": 40382
+  },
+  {
+   "agent": "accountant@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.58,
+   "output_tokens": 26189,
+   "context_used_tokens": 224287,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "strategy@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 0.93,
+   "output_tokens": 7946,
+   "context_used_tokens": 112537,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "security@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 1.11,
+   "output_tokens": 6282,
+   "context_used_tokens": 108902,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "decisions@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 3.28,
+   "output_tokens": 12311,
+   "context_used_tokens": 157572,
+   "delta_cost_usd": 0.32,
+   "delta_output_tokens": 2523
+  },
+  {
+   "agent": "helm@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 0.75,
+   "output_tokens": 3634,
+   "context_used_tokens": 91516,
+   "delta_cost_usd": 0.0,
+   "delta_output_tokens": 0
+  },
+  {
+   "agent": "router@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 6.18,
+   "output_tokens": 34139,
+   "context_used_tokens": 201735,
+   "delta_cost_usd": 1.5,
+   "delta_output_tokens": 2533
+  },
+  {
+   "agent": "conductor",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 58.34,
+   "output_tokens": 372246,
+   "context_used_tokens": 132167,
+   "delta_cost_usd": 31.73,
+   "delta_output_tokens": 115946
+  },
+  {
+   "agent": "infra",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 78.53,
+   "output_tokens": 314316,
+   "context_used_tokens": 161078,
+   "delta_cost_usd": 37.57,
+   "delta_output_tokens": 122026
+  }
+ ]
+}
