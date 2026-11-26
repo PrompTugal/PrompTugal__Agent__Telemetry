@@ -1,0 +1,2065 @@
+{
+ "as_of": "2026-11-26T15:51:32Z",
+ "scope": "get_session usage and external_metadata only; no transcripts. cost_usd is API-equivalent as reported at read time.",
+ "limits": [
+  "I have no reading at 00:00 UTC. Sessions created after 00:00 UTC have a zero baseline, so their since-00:00 delta is their total. Sessions created before it (created 22:48 to 23:15 on 25 Nov) have only deltas since my 02:38 reading, and only cost and output tokens were kept then.",
+  "Context size is recorded at my reading times (02:38, 11:15, this one), not at the start of each agent's own wake; I cannot see an agent's wake start without reading its events.",
+  "Input, cache read and cache write deltas since 11:15 and 02:38 were not kept in the earlier files; they exist from this file on.",
+  "worker_epoch counts restarts of a session's worker process; the 11:15 epochs were not kept, so epochs are recorded for comparison at the next reading.",
+  "The three rows with another account's name (conductor@CBR.dinis, conductor@sgit.dinis, maestro@dinis) are not PrompTugal's own agents but were in the cl-6 title set."
+ ],
+ "sessions": 52,
+ "total_cost_usd": 595.54,
+ "rows": [
+  {
+   "agent": "infra",
+   "id": "session_016CrbJMTBpiuD87CmNWcUd6",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "working",
+   "created_at": "2026-11-25T22:48:43.924718Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 11,
+   "totals": {
+    "cost_usd": 80.75,
+    "input_tokens": 64570,
+    "output_tokens": 321433,
+    "cache_read_tokens": 227956037,
+    "cache_write_tokens": 3555840
+   },
+   "context": {
+    "used_tokens": 179497,
+    "max_tokens": 1000000,
+    "used_at_1115": 161078,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.22,
+    "output_tokens": 7117
+   },
+   "since_0238_utc": {
+    "cost_usd": 39.79,
+    "output_tokens": 129143
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "conductor",
+   "id": "session_016CrbJKttr9TiHHDsuGnmF1",
+   "model": "opus",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-25T22:48:46.168274Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 18,
+   "totals": {
+    "cost_usd": 73.42,
+    "input_tokens": 423270,
+    "output_tokens": 463574,
+    "cache_read_tokens": 236181670,
+    "cache_write_tokens": 2726547
+   },
+   "context": {
+    "used_tokens": 351132,
+    "max_tokens": 1000000,
+    "used_at_1115": 132167,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 15.08,
+    "output_tokens": 91328
+   },
+   "since_0238_utc": {
+    "cost_usd": 46.81,
+    "output_tokens": 207274
+   },
+   "reset_or_replaced": [
+    "same role name also used by: conductor@CBR.dinis, conductor@sgit.dinis"
+   ]
+  },
+  {
+   "agent": "router@dinis",
+   "id": "session_016CrbJJ742C2CdXXkrRs1Zq",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-25T22:49:47.605472Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 7.43,
+    "input_tokens": 644,
+    "output_tokens": 34633,
+    "cache_read_tokens": 9518842,
+    "cache_write_tokens": 603705
+   },
+   "context": {
+    "used_tokens": 205036,
+    "max_tokens": 1000000,
+    "used_at_1115": 201735,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.25,
+    "output_tokens": 494
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.75,
+    "output_tokens": 3027
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "helm@dinis",
+   "id": "session_016CrbJMrS4XKpxUPGCj2Yhf",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-25T23:08:22.950102Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 1,
+   "totals": {
+    "cost_usd": 0.75,
+    "input_tokens": 14,
+    "output_tokens": 3634,
+    "cache_read_tokens": 421876,
+    "cache_write_tokens": 74264
+   },
+   "context": {
+    "used_tokens": 91516,
+    "max_tokens": 1000000,
+    "used_at_1115": 91516,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": 0.0,
+    "output_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "decisions@dinis",
+   "id": "session_016CrbJMwTgwKXwaYUTEopQk",
+   "model": "opus",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-25T23:15:25.329452Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 3,
+   "totals": {
+    "cost_usd": 3.28,
+    "input_tokens": 1068,
+    "output_tokens": 12311,
+    "cache_read_tokens": 3104829,
+    "cache_write_tokens": 301254
+   },
+   "context": {
+    "used_tokens": 157572,
+    "max_tokens": 1000000,
+    "used_at_1115": 157572,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": 0.32,
+    "output_tokens": 2523
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "security@dinis",
+   "id": "session_016CrbJJS2JEBgcWYnXZQGrE",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-25T23:15:27.601217Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 1,
+   "totals": {
+    "cost_usd": 1.11,
+    "input_tokens": 27,
+    "output_tokens": 6282,
+    "cache_read_tokens": 1237497,
+    "cache_write_tokens": 91781
+   },
+   "context": {
+    "used_tokens": 108902,
+    "max_tokens": 1000000,
+    "used_at_1115": 108902,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "reset_or_replaced": [
+    "same role name also used by: security"
+   ]
+  },
+  {
+   "agent": "strategy@dinis",
+   "id": "session_016CrbJKwZL7zgYhVwDosQsT",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-25T23:15:29.854901Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 1,
+   "totals": {
+    "cost_usd": 0.93,
+    "input_tokens": 38,
+    "output_tokens": 7946,
+    "cache_read_tokens": 1807253,
+    "cache_write_tokens": 51086
+   },
+   "context": {
+    "used_tokens": 112537,
+    "max_tokens": 1000000,
+    "used_at_1115": 112537,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "accountant@dinis",
+   "id": "session_016CrbJJ7NP5eaJypGAHgdGi",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-25T23:15:32.076854Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 4,
+   "totals": {
+    "cost_usd": 9.38,
+    "input_tokens": 96,
+    "output_tokens": 69275,
+    "cache_read_tokens": 12421805,
+    "cache_write_tokens": 1861743
+   },
+   "context": {
+    "used_tokens": 452020,
+    "max_tokens": 1000000,
+    "used_at_1115": 224287,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "none: session existed before 00:00 UTC and I have no 00:00 reading",
+    "note": "delta since the 02:38 reading below"
+   },
+   "since_1115_utc": {
+    "cost_usd": 6.8,
+    "output_tokens": 43086
+   },
+   "since_0238_utc": {
+    "cost_usd": 6.8,
+    "output_tokens": 43086
+   },
+   "reset_or_replaced": [
+    "same role name also used by: accountant"
+   ]
+  },
+  {
+   "agent": "abp",
+   "id": "session_016CrbJK3xXBhUMA6rucuPPd",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T01:31:07.478540Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 10.73,
+    "input_tokens": 5283,
+    "output_tokens": 103519,
+    "cache_read_tokens": 30073721,
+    "cache_write_tokens": 1666959
+   },
+   "context": {
+    "used_tokens": 381197,
+    "max_tokens": 1000000,
+    "used_at_1115": 274859,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 10.73,
+    "input_tokens": 5283,
+    "output_tokens": 103519,
+    "cache_read_tokens": 30073721,
+    "cache_write_tokens": 1666959
+   },
+   "since_1115_utc": {
+    "cost_usd": 5.84,
+    "output_tokens": 36984
+   },
+   "since_0238_utc": {
+    "cost_usd": 9.69,
+    "output_tokens": 77366
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "data",
+   "id": "session_016CrbJJKUtCUXi5dhrb3Ahs",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T01:41:09.189404Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 9.95,
+    "input_tokens": 5294,
+    "output_tokens": 54915,
+    "cache_read_tokens": 29163397,
+    "cache_write_tokens": 1616661
+   },
+   "context": {
+    "used_tokens": 388580,
+    "max_tokens": 1000000,
+    "used_at_1115": 378118,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 9.95,
+    "input_tokens": 5294,
+    "output_tokens": 54915,
+    "cache_read_tokens": 29163397,
+    "cache_write_tokens": 1616661
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.5,
+    "output_tokens": 3704
+   },
+   "since_0238_utc": {
+    "cost_usd": 7.21,
+    "output_tokens": 32412
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "weather",
+   "id": "session_016CrbJMaWr7p8W8MaDmhsYG",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T01:41:11.269722Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 4.9,
+    "input_tokens": 4207,
+    "output_tokens": 33369,
+    "cache_read_tokens": 18139911,
+    "cache_write_tokens": 684699
+   },
+   "context": {
+    "used_tokens": 302870,
+    "max_tokens": 1000000,
+    "used_at_1115": 295812,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.9,
+    "input_tokens": 4207,
+    "output_tokens": 33369,
+    "cache_read_tokens": 18139911,
+    "cache_write_tokens": 684699
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.29,
+    "output_tokens": 1822
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.59,
+    "output_tokens": 5641
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "travel",
+   "id": "session_016CrbJMxEaAKd9efCfrsom6",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T01:41:13.374147Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 3.68,
+    "input_tokens": 49291,
+    "output_tokens": 50374,
+    "cache_read_tokens": 14440553,
+    "cache_write_tokens": 431309
+   },
+   "context": {
+    "used_tokens": 222735,
+    "max_tokens": 1000000,
+    "used_at_1115": 216065,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.68,
+    "input_tokens": 49291,
+    "output_tokens": 50374,
+    "cache_read_tokens": 14440553,
+    "cache_write_tokens": 431309
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.16,
+    "output_tokens": 3075
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.13,
+    "output_tokens": 15875
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "civic",
+   "id": "session_016CrbJMSWe1qtqBQrSeeHQf",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:15.474456Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 6.42,
+    "input_tokens": 719,
+    "output_tokens": 63080,
+    "cache_read_tokens": 22595798,
+    "cache_write_tokens": 879359
+   },
+   "context": {
+    "used_tokens": 305665,
+    "max_tokens": 1000000,
+    "used_at_1115": 289062,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 6.42,
+    "input_tokens": 719,
+    "output_tokens": 63080,
+    "cache_read_tokens": 22595798,
+    "cache_write_tokens": 879359
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.39,
+    "output_tokens": 5197
+   },
+   "since_0238_utc": {
+    "cost_usd": 5.1,
+    "output_tokens": 40381
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "startups",
+   "id": "session_016CrbJHzEkmE5jEdT2WpVzC",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T01:41:17.665593Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 5.57,
+    "input_tokens": 61177,
+    "output_tokens": 65204,
+    "cache_read_tokens": 25364720,
+    "cache_write_tokens": 589654
+   },
+   "context": {
+    "used_tokens": 278946,
+    "max_tokens": 1000000,
+    "used_at_1115": 277320,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 5.57,
+    "input_tokens": 61177,
+    "output_tokens": 65204,
+    "cache_read_tokens": 25364720,
+    "cache_write_tokens": 589654
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.09,
+    "output_tokens": 130
+   },
+   "since_0238_utc": {
+    "cost_usd": 4.14,
+    "output_tokens": 39295
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "library",
+   "id": "session_016CrbJNfPpkijB4Czf4L2DD",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:19.931760Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 12.5,
+    "input_tokens": 2747,
+    "output_tokens": 60974,
+    "cache_read_tokens": 26406190,
+    "cache_write_tokens": 2310374
+   },
+   "context": {
+    "used_tokens": 434241,
+    "max_tokens": 1000000,
+    "used_at_1115": 426325,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 12.5,
+    "input_tokens": 2747,
+    "output_tokens": 60974,
+    "cache_read_tokens": 26406190,
+    "cache_write_tokens": 2310374
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.37,
+    "output_tokens": 4024
+   },
+   "since_0238_utc": {
+    "cost_usd": 8.6,
+    "output_tokens": 24372
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "signals",
+   "id": "session_016CrbJLzfdz51sDBekg8v8X",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:22.140246Z",
+   "read_at": "2026-11-26T15:53:21Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 4.39,
+    "input_tokens": 2737,
+    "output_tokens": 57968,
+    "cache_read_tokens": 18725861,
+    "cache_write_tokens": 482602
+   },
+   "context": {
+    "used_tokens": 242090,
+    "max_tokens": 1000000,
+    "used_at_1115": 234675,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.39,
+    "input_tokens": 2737,
+    "output_tokens": 57968,
+    "cache_read_tokens": 18725861,
+    "cache_write_tokens": 482602
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.26,
+    "output_tokens": 2217
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.93,
+    "output_tokens": 28714
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "cyber",
+   "id": "session_016CrbJLwU9iQ41Xv3q2VZwk",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T01:41:24.312315Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 10.13,
+    "input_tokens": 3742,
+    "output_tokens": 61003,
+    "cache_read_tokens": 22966926,
+    "cache_write_tokens": 1802192
+   },
+   "context": {
+    "used_tokens": 394950,
+    "max_tokens": 1000000,
+    "used_at_1115": 379400,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 10.13,
+    "input_tokens": 3742,
+    "output_tokens": 61003,
+    "cache_read_tokens": 22966926,
+    "cache_write_tokens": 1802192
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.65,
+    "output_tokens": 7935
+   },
+   "since_0238_utc": {
+    "cost_usd": 7.7,
+    "output_tokens": 30827
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "events",
+   "id": "session_016CrbJNMHQRQmkvWGwFt7BL",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T01:41:26.417257Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 4.01,
+    "input_tokens": 1692,
+    "output_tokens": 54318,
+    "cache_read_tokens": 15348348,
+    "cache_write_tokens": 480938
+   },
+   "context": {
+    "used_tokens": 241670,
+    "max_tokens": 1000000,
+    "used_at_1115": 233020,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.01,
+    "input_tokens": 1692,
+    "output_tokens": 54318,
+    "cache_read_tokens": 15348348,
+    "cache_write_tokens": 480938
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.27,
+    "output_tokens": 4401
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.68,
+    "output_tokens": 26392
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "live",
+   "id": "session_016CrbJMc7qc59eSmeqUAW6q",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T01:41:28.312852Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 8.09,
+    "input_tokens": 2177,
+    "output_tokens": 39019,
+    "cache_read_tokens": 13512691,
+    "cache_write_tokens": 1584717
+   },
+   "context": {
+    "used_tokens": 344078,
+    "max_tokens": 1000000,
+    "used_at_1115": 338972,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 8.09,
+    "input_tokens": 2177,
+    "output_tokens": 39019,
+    "cache_read_tokens": 13512691,
+    "cache_write_tokens": 1584717
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.21,
+    "output_tokens": 1365
+   },
+   "since_0238_utc": {
+    "cost_usd": 6.01,
+    "output_tokens": 15318
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "videos",
+   "id": "session_016CrbJMuWrQhMqNFVLoX3dS",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T01:41:30.432981Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 4.49,
+    "input_tokens": 3748,
+    "output_tokens": 53094,
+    "cache_read_tokens": 19398275,
+    "cache_write_tokens": 502275
+   },
+   "context": {
+    "used_tokens": 250258,
+    "max_tokens": 1000000,
+    "used_at_1115": 244444,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.49,
+    "input_tokens": 3748,
+    "output_tokens": 53094,
+    "cache_read_tokens": 19398275,
+    "cache_write_tokens": 502275
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.17,
+    "output_tokens": 2326
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.89,
+    "output_tokens": 25000
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "bulletins",
+   "id": "session_016CrbJN84epGHrjZ5CT51bY",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:32.565401Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 4.02,
+    "input_tokens": 3716,
+    "output_tokens": 50106,
+    "cache_read_tokens": 16200993,
+    "cache_write_tokens": 471562
+   },
+   "context": {
+    "used_tokens": 238541,
+    "max_tokens": 1000000,
+    "used_at_1115": 230517,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.02,
+    "input_tokens": 3716,
+    "output_tokens": 50106,
+    "cache_read_tokens": 16200993,
+    "cache_write_tokens": 471562
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.27,
+    "output_tokens": 2619
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.84,
+    "output_tokens": 24018
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "fringe",
+   "id": "session_016CrbJKaYmvvH9W9jBkyyHE",
+   "model": "sonnet",
+   "status": "archived",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:34.701650Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 3,
+   "totals": {
+    "cost_usd": 3.07,
+    "input_tokens": 84,
+    "output_tokens": 31400,
+    "cache_read_tokens": 5949979,
+    "cache_write_tokens": 539450
+   },
+   "context": {
+    "used_tokens": 247984,
+    "max_tokens": 1000000,
+    "used_at_1115": 247984,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.07,
+    "input_tokens": 84,
+    "output_tokens": 31400,
+    "cache_read_tokens": 5949979,
+    "cache_write_tokens": 539450
+   },
+   "since_1115_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "swarm",
+   "id": "session_016CrbJNB2WPgCAvU2KSmRmY",
+   "model": "sonnet",
+   "status": "archived",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:41:36.785255Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 3,
+   "totals": {
+    "cost_usd": 1.34,
+    "input_tokens": 79,
+    "output_tokens": 24944,
+    "cache_read_tokens": 6132178,
+    "cache_write_tokens": 118462
+   },
+   "context": {
+    "used_tokens": 183512,
+    "max_tokens": 1000000,
+    "used_at_1115": 183512,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 1.34,
+    "input_tokens": 79,
+    "output_tokens": 24944,
+    "cache_read_tokens": 6132178,
+    "cache_write_tokens": 118462
+   },
+   "since_1115_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "since_0238_utc": {
+    "cost_usd": -0.0,
+    "output_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "website-attach-session (untitled)",
+   "id": "session_016CrbJLhtarwbcbxJnrF3bP",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-26T01:43:26.960923Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 9,
+   "totals": {
+    "cost_usd": 20.21,
+    "input_tokens": 68613,
+    "output_tokens": 96056,
+    "cache_read_tokens": 63794359,
+    "cache_write_tokens": 3208785
+   },
+   "context": {
+    "used_tokens": 561278,
+    "max_tokens": 1000000,
+    "used_at_1115": 408098,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 20.21,
+    "input_tokens": 68613,
+    "output_tokens": 96056,
+    "cache_read_tokens": 63794359,
+    "cache_write_tokens": 3208785
+   },
+   "since_1115_utc": {
+    "cost_usd": 11.25,
+    "output_tokens": 29496
+   },
+   "since_0238_utc": {
+    "cost_usd": 18.87,
+    "output_tokens": 84083
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "dev",
+   "id": "session_016CrbJKEPqF3pNfbncgHqvy",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-26T01:43:29.328474Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 42.12,
+    "input_tokens": 28645,
+    "output_tokens": 375363,
+    "cache_read_tokens": 262300134,
+    "cache_write_tokens": 3013558
+   },
+   "context": {
+    "used_tokens": 285692,
+    "max_tokens": 1000000,
+    "used_at_1115": 507253,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 42.12,
+    "input_tokens": 28645,
+    "output_tokens": 375363,
+    "cache_read_tokens": 262300134,
+    "cache_write_tokens": 3013558
+   },
+   "since_1115_utc": {
+    "cost_usd": 25.38,
+    "output_tokens": 201539
+   },
+   "since_0238_utc": {
+    "cost_usd": 38.71,
+    "output_tokens": 315291
+   },
+   "reset_or_replaced": [
+    "context fell from 507253 to 285692 since 11:15 (compaction or reset)"
+   ]
+  },
+  {
+   "agent": "security",
+   "id": "session_016CrbJKgXxEmneR8fKwoPhS",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T01:43:31.460424Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 17,
+   "totals": {
+    "cost_usd": 114.95,
+    "input_tokens": 768596,
+    "output_tokens": 300631,
+    "cache_read_tokens": 210402639,
+    "cache_write_tokens": 7970359
+   },
+   "context": {
+    "used_tokens": 647318,
+    "max_tokens": 1000000,
+    "used_at_1115": 781975,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 114.95,
+    "input_tokens": 768596,
+    "output_tokens": 300631,
+    "cache_read_tokens": 210402639,
+    "cache_write_tokens": 7970359
+   },
+   "since_1115_utc": {
+    "cost_usd": 53.19,
+    "output_tokens": 102201
+   },
+   "since_0238_utc": {
+    "cost_usd": 99.53,
+    "output_tokens": 227050
+   },
+   "reset_or_replaced": [
+    "same role name also used by: security@dinis"
+   ]
+  },
+  {
+   "agent": "correspondent",
+   "id": "session_016CrbJKBK3KAiWXzESjt3zH",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T01:43:33.696853Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 5.29,
+    "input_tokens": 36577,
+    "output_tokens": 54183,
+    "cache_read_tokens": 24044197,
+    "cache_write_tokens": 648818
+   },
+   "context": {
+    "used_tokens": 254145,
+    "max_tokens": 1000000,
+    "used_at_1115": 225713,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 5.29,
+    "input_tokens": 36577,
+    "output_tokens": 54183,
+    "cache_read_tokens": 24044197,
+    "cache_write_tokens": 648818
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.45,
+    "output_tokens": 18317
+   },
+   "since_0238_utc": {
+    "cost_usd": 4.34,
+    "output_tokens": 37173
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "places",
+   "id": "session_016CrbJJcoCJnQM6GGY1xC5K",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:16:31.071450Z",
+   "read_at": "2026-11-26T15:52:42Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 10.63,
+    "input_tokens": 7459,
+    "output_tokens": 81706,
+    "cache_read_tokens": 51803551,
+    "cache_write_tokens": 1152324
+   },
+   "context": {
+    "used_tokens": 381022,
+    "max_tokens": 1000000,
+    "used_at_1115": 357653,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 10.63,
+    "input_tokens": 7459,
+    "output_tokens": 81706,
+    "cache_read_tokens": 51803551,
+    "cache_write_tokens": 1152324
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.44,
+    "output_tokens": 8158
+   },
+   "since_0238_utc": {
+    "cost_usd": 7.2,
+    "output_tokens": 29716
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "designer",
+   "id": "session_016CrbJKnk1brEbFLeWGxmxT",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-26T02:23:09.051308Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 6.33,
+    "input_tokens": 4306,
+    "output_tokens": 67367,
+    "cache_read_tokens": 25516951,
+    "cache_write_tokens": 773609
+   },
+   "context": {
+    "used_tokens": 295717,
+    "max_tokens": 1000000,
+    "used_at_1115": 270140,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 6.33,
+    "input_tokens": 4306,
+    "output_tokens": 67367,
+    "cache_read_tokens": 25516951,
+    "cache_write_tokens": 773609
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.57,
+    "output_tokens": 9397
+   },
+   "since_0238_utc": {
+    "cost_usd": 5.2,
+    "output_tokens": 45783
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "accountant",
+   "id": "session_016CrbJLU6NN6yvcGyy3HEg3",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-26T02:23:11.202851Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 1.96,
+    "input_tokens": 2653,
+    "output_tokens": 26942,
+    "cache_read_tokens": 7059480,
+    "cache_write_tokens": 242581
+   },
+   "context": {
+    "used_tokens": 146149,
+    "max_tokens": 1000000,
+    "used_at_1115": 117918,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 1.96,
+    "input_tokens": 2653,
+    "output_tokens": 26942,
+    "cache_read_tokens": 7059480,
+    "cache_write_tokens": 242581
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.9,
+    "output_tokens": 14217
+   },
+   "since_0238_utc": {
+    "cost_usd": 1.64,
+    "output_tokens": 20680
+   },
+   "reset_or_replaced": [
+    "same role name also used by: accountant@dinis"
+   ]
+  },
+  {
+   "agent": "ontologist",
+   "id": "session_016CrbJKcMRN3j2H1qSP6eGy",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:13.346066Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 9.87,
+    "input_tokens": 8177,
+    "output_tokens": 79404,
+    "cache_read_tokens": 37824086,
+    "cache_write_tokens": 1319139
+   },
+   "context": {
+    "used_tokens": 388774,
+    "max_tokens": 1000000,
+    "used_at_1115": 288810,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 9.87,
+    "input_tokens": 8177,
+    "output_tokens": 79404,
+    "cache_read_tokens": 37824086,
+    "cache_write_tokens": 1319139
+   },
+   "since_1115_utc": {
+    "cost_usd": 4.68,
+    "output_tokens": 29000
+   },
+   "since_0238_utc": {
+    "cost_usd": 8.91,
+    "output_tokens": 64396
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "observability",
+   "id": "session_016CrbJK6qQvXVy64vKPgEe1",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:15.462270Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 4,
+   "totals": {
+    "cost_usd": 6.48,
+    "input_tokens": 3911,
+    "output_tokens": 30232,
+    "cache_read_tokens": 9618739,
+    "cache_write_tokens": 1301402
+   },
+   "context": {
+    "used_tokens": 313573,
+    "max_tokens": 1000000,
+    "used_at_1115": 307864,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 6.48,
+    "input_tokens": 3911,
+    "output_tokens": 30232,
+    "cache_read_tokens": 9618739,
+    "cache_write_tokens": 1301402
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.2,
+    "output_tokens": 1973
+   },
+   "since_0238_utc": {
+    "cost_usd": 4.16,
+    "output_tokens": 5944
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "devops",
+   "id": "session_016CrbJLNFt4cFTXMVgkqcCY",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:17.705789Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 12.7,
+    "input_tokens": 4299,
+    "output_tokens": 68429,
+    "cache_read_tokens": 27771251,
+    "cache_write_tokens": 2394531
+   },
+   "context": {
+    "used_tokens": 448893,
+    "max_tokens": 1000000,
+    "used_at_1115": 299120,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 12.7,
+    "input_tokens": 4299,
+    "output_tokens": 68429,
+    "cache_read_tokens": 27771251,
+    "cache_write_tokens": 2394531
+   },
+   "since_1115_utc": {
+    "cost_usd": 6.67,
+    "output_tokens": 30583
+   },
+   "since_0238_utc": {
+    "cost_usd": 10.93,
+    "output_tokens": 45935
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "sherpa",
+   "id": "session_016CrbJMWWVdEEuaqxoSn7QC",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:19.911830Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 3.62,
+    "input_tokens": 3460,
+    "output_tokens": 50266,
+    "cache_read_tokens": 14588962,
+    "cache_write_tokens": 413230
+   },
+   "context": {
+    "used_tokens": 239381,
+    "max_tokens": 1000000,
+    "used_at_1115": 221842,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.62,
+    "input_tokens": 3460,
+    "output_tokens": 50266,
+    "cache_read_tokens": 14588962,
+    "cache_write_tokens": 413230
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.06,
+    "output_tokens": 6754
+   },
+   "since_0238_utc": {
+    "cost_usd": 3.32,
+    "output_tokens": 44707
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "synthetic",
+   "id": "session_016CrbJMS4781bAVGCP7qfap",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:22.087363Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 2.8,
+    "input_tokens": 2911,
+    "output_tokens": 34544,
+    "cache_read_tokens": 9876393,
+    "cache_write_tokens": 366823
+   },
+   "context": {
+    "used_tokens": 209093,
+    "max_tokens": 1000000,
+    "used_at_1115": 177858,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 2.8,
+    "input_tokens": 2911,
+    "output_tokens": 34544,
+    "cache_read_tokens": 9876393,
+    "cache_write_tokens": 366823
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.07,
+    "output_tokens": 11351
+   },
+   "since_0238_utc": {
+    "cost_usd": 1.92,
+    "output_tokens": 18008
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "rights",
+   "id": "session_016CrbJJ4rKxNqiEKKhAaWAT",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:24.104040Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 6.61,
+    "input_tokens": 2928,
+    "output_tokens": 43373,
+    "cache_read_tokens": 13905774,
+    "cache_write_tokens": 1195293
+   },
+   "context": {
+    "used_tokens": 316410,
+    "max_tokens": 1000000,
+    "used_at_1115": 246809,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 6.61,
+    "input_tokens": 2928,
+    "output_tokens": 43373,
+    "cache_read_tokens": 13905774,
+    "cache_write_tokens": 1195293
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.91,
+    "output_tokens": 16691
+   },
+   "since_0238_utc": {
+    "cost_usd": 5.6,
+    "output_tokens": 27149
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "translator",
+   "id": "session_016CrbJHy25niw9qrWwrVc9S",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:26.178294Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 8,
+   "totals": {
+    "cost_usd": 14.21,
+    "input_tokens": 4045,
+    "output_tokens": 82366,
+    "cache_read_tokens": 31594559,
+    "cache_write_tokens": 2554801
+   },
+   "context": {
+    "used_tokens": 475707,
+    "max_tokens": 1000000,
+    "used_at_1115": 312764,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 14.21,
+    "input_tokens": 4045,
+    "output_tokens": 82366,
+    "cache_read_tokens": 31594559,
+    "cache_write_tokens": 2554801
+   },
+   "since_1115_utc": {
+    "cost_usd": 7.68,
+    "output_tokens": 30009
+   },
+   "since_0238_utc": {
+    "cost_usd": 13.27,
+    "output_tokens": 68420
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "telemetry",
+   "id": "session_016CrbJKQ8xgNBKsWaaetm7x",
+   "model": "sonnet",
+   "status": "running",
+   "bucket": "working",
+   "created_at": "2026-11-26T02:23:28.295373Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 6.03,
+    "input_tokens": 4984,
+    "output_tokens": 79212,
+    "cache_read_tokens": 14347592,
+    "cache_write_tokens": 1103200
+   },
+   "context": {
+    "used_tokens": 263836,
+    "max_tokens": 1000000,
+    "used_at_1115": 228368,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 6.03,
+    "input_tokens": 4984,
+    "output_tokens": 79212,
+    "cache_read_tokens": 14347592,
+    "cache_write_tokens": 1103200
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.26,
+    "output_tokens": 34401
+   },
+   "since_0238_utc": {
+    "cost_usd": 4.37,
+    "output_tokens": 53915
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "historian",
+   "id": "session_016CrbJLLxVYAM8QwqHBV7aM",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:23:30.367297Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 3.59,
+    "input_tokens": 112658,
+    "output_tokens": 39426,
+    "cache_read_tokens": 11526519,
+    "cache_write_tokens": 454944
+   },
+   "context": {
+    "used_tokens": 205928,
+    "max_tokens": 1000000,
+    "used_at_1115": 172782,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.59,
+    "input_tokens": 112658,
+    "output_tokens": 39426,
+    "cache_read_tokens": 11526519,
+    "cache_write_tokens": 454944
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.23,
+    "output_tokens": 12516
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.75,
+    "output_tokens": 23388
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "researcher",
+   "id": "session_016CrbJMo1RxSSek8dG1KAgr",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:32.435159Z",
+   "read_at": "2026-11-26T15:52:06Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 4.69,
+    "input_tokens": 6035,
+    "output_tokens": 63305,
+    "cache_read_tokens": 20857628,
+    "cache_write_tokens": 489039
+   },
+   "context": {
+    "used_tokens": 268870,
+    "max_tokens": 1000000,
+    "used_at_1115": 217661,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.69,
+    "input_tokens": 6035,
+    "output_tokens": 63305,
+    "cache_read_tokens": 20857628,
+    "cache_write_tokens": 489039
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.14,
+    "output_tokens": 23689
+   },
+   "since_0238_utc": {
+    "cost_usd": 3.46,
+    "output_tokens": 35607
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "outreach",
+   "id": "session_016CrbJKSAFT2v7Mkhpc4uJd",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:23:34.428148Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 4,
+   "totals": {
+    "cost_usd": 0.89,
+    "input_tokens": 1063,
+    "output_tokens": 13267,
+    "cache_read_tokens": 2554583,
+    "cache_write_tokens": 125306
+   },
+   "context": {
+    "used_tokens": 115938,
+    "max_tokens": 1000000,
+    "used_at_1115": 108682,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 0.89,
+    "input_tokens": 1063,
+    "output_tokens": 13267,
+    "cache_read_tokens": 2554583,
+    "cache_write_tokens": 125306
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.13,
+    "output_tokens": 3248
+   },
+   "since_0238_utc": {
+    "cost_usd": 0.55,
+    "output_tokens": 5921
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "backup",
+   "id": "session_016CrbJLUcdAqJPbap3cW4nW",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:23:36.555811Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 5.37,
+    "input_tokens": 2883,
+    "output_tokens": 27311,
+    "cache_read_tokens": 7757998,
+    "cache_write_tokens": 1080101
+   },
+   "context": {
+    "used_tokens": 281974,
+    "max_tokens": 1000000,
+    "used_at_1115": 226313,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 5.37,
+    "input_tokens": 2883,
+    "output_tokens": 27311,
+    "cache_read_tokens": 7757998,
+    "cache_write_tokens": 1080101
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.28,
+    "output_tokens": 8950
+   },
+   "since_0238_utc": {
+    "cost_usd": 3.68,
+    "output_tokens": 9197
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "investors",
+   "id": "session_016CrbJJDSkkAQSxQ7VDxwzv",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:38.779549Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 2.31,
+    "input_tokens": 2407,
+    "output_tokens": 31664,
+    "cache_read_tokens": 8534715,
+    "cache_write_tokens": 283789
+   },
+   "context": {
+    "used_tokens": 176587,
+    "max_tokens": 1000000,
+    "used_at_1115": 152691,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 2.31,
+    "input_tokens": 2407,
+    "output_tokens": 31664,
+    "cache_read_tokens": 8534715,
+    "cache_write_tokens": 283789
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.85,
+    "output_tokens": 8503
+   },
+   "since_0238_utc": {
+    "cost_usd": 1.27,
+    "output_tokens": 10104
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "customers",
+   "id": "session_016CrbJKeq1CbrSckUAYEf2f",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:23:40.818052Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 1.91,
+    "input_tokens": 1614,
+    "output_tokens": 22345,
+    "cache_read_tokens": 6172874,
+    "cache_write_tokens": 266147
+   },
+   "context": {
+    "used_tokens": 166392,
+    "max_tokens": 1000000,
+    "used_at_1115": 158747,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 1.91,
+    "input_tokens": 1614,
+    "output_tokens": 22345,
+    "cache_read_tokens": 6172874,
+    "cache_write_tokens": 266147
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.19,
+    "output_tokens": 2418
+   },
+   "since_0238_utc": {
+    "cost_usd": 1.06,
+    "output_tokens": 5750
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "reviewer",
+   "id": "session_016CrbJMGozMvJhLHPUTvy9j",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:42.873Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 13.01,
+    "input_tokens": 3501,
+    "output_tokens": 68082,
+    "cache_read_tokens": 27392881,
+    "cache_write_tokens": 2394573
+   },
+   "context": {
+    "used_tokens": 478717,
+    "max_tokens": 1000000,
+    "used_at_1115": 412626,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 13.01,
+    "input_tokens": 3501,
+    "output_tokens": 68082,
+    "cache_read_tokens": 27392881,
+    "cache_write_tokens": 2394573
+   },
+   "since_1115_utc": {
+    "cost_usd": 3.97,
+    "output_tokens": 8179
+   },
+   "since_0238_utc": {
+    "cost_usd": 11.69,
+    "output_tokens": 45164
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "curator",
+   "id": "session_016CrbJLsMrLvFQSaXufU7Xs",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:44.973298Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 3.78,
+    "input_tokens": 45600,
+    "output_tokens": 39429,
+    "cache_read_tokens": 11103339,
+    "cache_write_tokens": 567381
+   },
+   "context": {
+    "used_tokens": 224529,
+    "max_tokens": 1000000,
+    "used_at_1115": 205808,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.78,
+    "input_tokens": 45600,
+    "output_tokens": 39429,
+    "cache_read_tokens": 11103339,
+    "cache_write_tokens": 567381
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.88,
+    "output_tokens": 5888
+   },
+   "since_0238_utc": {
+    "cost_usd": 3.02,
+    "output_tokens": 23619
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "checker",
+   "id": "session_016CrbJKoRCCouKXS7AP8XFe",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T02:23:47.166360Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 6,
+   "totals": {
+    "cost_usd": 7.87,
+    "input_tokens": 4623,
+    "output_tokens": 112023,
+    "cache_read_tokens": 30820375,
+    "cache_write_tokens": 971086
+   },
+   "context": {
+    "used_tokens": 338839,
+    "max_tokens": 1000000,
+    "used_at_1115": 266578,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 7.87,
+    "input_tokens": 4623,
+    "output_tokens": 112023,
+    "cache_read_tokens": 30820375,
+    "cache_write_tokens": 971086
+   },
+   "since_1115_utc": {
+    "cost_usd": 2.28,
+    "output_tokens": 22868
+   },
+   "since_0238_utc": {
+    "cost_usd": 7.12,
+    "output_tokens": 94764
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "programme",
+   "id": "session_016CrbJLwnkTq2kxfioHp6py",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T02:23:49.213129Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 2.42,
+    "input_tokens": 3397,
+    "output_tokens": 29193,
+    "cache_read_tokens": 7869503,
+    "cache_write_tokens": 334101
+   },
+   "context": {
+    "used_tokens": 190833,
+    "max_tokens": 1000000,
+    "used_at_1115": 169650,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 2.42,
+    "input_tokens": 3397,
+    "output_tokens": 29193,
+    "cache_read_tokens": 7869503,
+    "cache_write_tokens": 334101
+   },
+   "since_1115_utc": {
+    "cost_usd": 0.84,
+    "output_tokens": 7325
+   },
+   "since_0238_utc": {
+    "cost_usd": 1.39,
+    "output_tokens": 8520
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "analyst",
+   "id": "session_016CrbJKUGGAH6r8MhbuAxyV",
+   "model": "sonnet",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T02:23:51.340574Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 7,
+   "totals": {
+    "cost_usd": 3.53,
+    "input_tokens": 4502,
+    "output_tokens": 42230,
+    "cache_read_tokens": 15672760,
+    "cache_write_tokens": 381157
+   },
+   "context": {
+    "used_tokens": 215688,
+    "max_tokens": 1000000,
+    "used_at_1115": 189895,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 3.53,
+    "input_tokens": 4502,
+    "output_tokens": 42230,
+    "cache_read_tokens": 15672760,
+    "cache_write_tokens": 381157
+   },
+   "since_1115_utc": {
+    "cost_usd": 1.15,
+    "output_tokens": 9627
+   },
+   "since_0238_utc": {
+    "cost_usd": 2.68,
+    "output_tokens": 24750
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "maestro@dinis",
+   "id": "session_016CrbJLv54Kh4CSTzagW2G3",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "completed",
+   "created_at": "2026-11-26T13:43:21.458786Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 5,
+   "totals": {
+    "cost_usd": 5.56,
+    "input_tokens": 5111,
+    "output_tokens": 50315,
+    "cache_read_tokens": 15636071,
+    "cache_write_tokens": 177265
+   },
+   "context": {
+    "used_tokens": 242372,
+    "max_tokens": 1000000,
+    "used_at_1115": null,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 5.56,
+    "input_tokens": 5111,
+    "output_tokens": 50315,
+    "cache_read_tokens": 15636071,
+    "cache_write_tokens": 177265
+   },
+   "since_1115_utc": null,
+   "since_0238_utc": null,
+   "reset_or_replaced": [
+    "new session since the 11:15 reading"
+   ]
+  },
+  {
+   "agent": "conductor@sgit.dinis",
+   "id": "session_016CrbJJApzXjpoWrGMpA4u9",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "blocked",
+   "created_at": "2026-11-26T13:54:21.649847Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 1,
+   "totals": {
+    "cost_usd": 2.25,
+    "input_tokens": 73,
+    "output_tokens": 21417,
+    "cache_read_tokens": 4814851,
+    "cache_write_tokens": 107774
+   },
+   "context": {
+    "used_tokens": 171618,
+    "max_tokens": 1000000,
+    "used_at_1115": null,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 2.25,
+    "input_tokens": 73,
+    "output_tokens": 21417,
+    "cache_read_tokens": 4814851,
+    "cache_write_tokens": 107774
+   },
+   "since_1115_utc": null,
+   "since_0238_utc": null,
+   "reset_or_replaced": [
+    "new session since the 11:15 reading",
+    "same role name also used by: conductor@CBR.dinis, conductor"
+   ]
+  },
+  {
+   "agent": "conductor@CBR.dinis",
+   "id": "session_016CrbJMcK18EPwejc2vhzB5",
+   "model": "opus",
+   "status": "idle",
+   "bucket": "review_ready",
+   "created_at": "2026-11-26T13:54:24.000830Z",
+   "read_at": "2026-11-26T15:51:32Z",
+   "worker_epoch": 1,
+   "totals": {
+    "cost_usd": 4.21,
+    "input_tokens": 1529,
+    "output_tokens": 40801,
+    "cache_read_tokens": 6561950,
+    "cache_write_tokens": 317998
+   },
+   "context": {
+    "used_tokens": 185125,
+    "max_tokens": 1000000,
+    "used_at_1115": null,
+    "used_at_0238": null
+   },
+   "since_0000_utc": {
+    "baseline": "zero (session created after 00:00 UTC)",
+    "cost_usd": 4.21,
+    "input_tokens": 1529,
+    "output_tokens": 40801,
+    "cache_read_tokens": 6561950,
+    "cache_write_tokens": 317998
+   },
+   "since_1115_utc": null,
+   "since_0238_utc": null,
+   "reset_or_replaced": [
+    "new session since the 11:15 reading",
+    "same role name also used by: conductor@sgit.dinis, conductor"
+   ]
+  }
+ ]
+}

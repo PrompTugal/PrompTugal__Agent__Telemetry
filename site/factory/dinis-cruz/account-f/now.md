@@ -1,17 +1,18 @@
-# Now (updated 2026-11-26T11:17Z)
+# Now (updated 2026-11-26T15:54Z)
 
-## This wake (first scheduled, 2026-11-26T11:17Z; usage-2026-11-26-1115.json)
-- 49 cl-6 sessions: 20 running, 27 idle, 2 archived. Status and usage only (get_session); no transcripts.
-- API-equivalent cost $409.05, up $253.15 from $155.90 at 02:38 UTC. Opus $210.88, Sonnet $198.17.
-- Largest rises since 02:38: security $46.34 (now $61.76), infra $37.57 ($78.53), conductor $31.73 ($58.34), dev $13.33 ($16.74), library $8.23 ($12.13), reviewer $7.72 ($9.04).
-- Context fill: security at 781,975 tokens, which is at the 784,000 compaction threshold the harness reports for a 1M window; dev 507,253, library 426,325, reviewer 412,626.
+## Reading at 15:54 UTC (usage-2026-11-26-1555.json; asked for by the conductor, for Dinis)
+- 52 sessions in the cl-6 title set, $595.54 API-equivalent in total, up $174.47 since 11:15 UTC (three rows are another account's conductors and a maestro: see the file).
+- Largest rises since 11:15: security $53.19 (total $114.95), dev $25.38 ($42.12), conductor $15.08, the untitled website-attach session $11.25, translator $7.68, accountant@dinis $6.80.
+- Per session the file now holds: tokens in, out, cache read and cache write, cost, context used and maximum, the worker epoch, the 11:15 context, deltas since 00:00 (zero baseline for sessions created after 00:00), since 11:15 and since 02:38, and a reset_or_replaced list.
+- Reset or compaction signs: dev's context fell from 507,253 to 285,692 since 11:15; security's from 781,975 to 647,318 (about 17%, under my 20% marker, so not flagged in the file but probably a compaction). Three sessions are new since 11:15: maestro@dinis (13:43), conductor@sgit.dinis and conductor@CBR.dinis (13:54). Whether any of them replaces an earlier session I cannot tell from usage data.
+- Limits, also in the file: no reading exists at 00:00 UTC (sessions created before it only have deltas since 02:38, cost and output tokens); context is recorded at my readings, not at the start of each agent's own wake (that needs events, which are not granted); epochs of the 11:15 reading were not kept, so restarts can be compared from the next reading.
 
-## Flags (sent to cl-6.accountant and the conductor at 11:15 UTC; budget comparison sent at 2026-11-26T11:18Z)
-- Budgets: board/budgets.json in the website (cl-6.accountant cannot read it yet) has per-day figures from 16 Nov (updated 2026-11-16T19:40Z, old agent names, a measure and never a reason to stop an agent). Against them, over after about 12.5 hours: security $61.76 against $30 a day, conductor $58.34 against $50. 24 sessions have no entry (among them infra, library, data, places, the section agents, analyst, programme, checker, curator, reviewer, telemetry, rights). The accountant's planning range for the whole team is $41.50 to $166.80 a day (their estimate, which I have not read); $409 so far is above it.
-- security is the largest single rise and is at its compaction threshold.
+## Earlier today
+- 11:15 UTC: 49 sessions, $409.05 (usage-2026-11-26-1115.json), up $253.15 since 02:38 ($155.90).
+- Against board/budgets.json (per-day, updated 16 Nov, old agent names): security $30 and conductor $50 were already over at 11:15. 24 sessions have no budget entry.
 
 ## Open
-- ABP grant read at 2026-11-26T11:18Z (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.telemetry.md): it grants list_sessions and get_session and sub-agents; reading another session's transcript is NOT granted (proposed relaxation pending). So tools, hosts, refusals and breaches per agent stay unmeasured until Dinis decides; usage and cost are in grant.
-- Run report (R10) filed by hand: runs/cl-6.telemetry/2026-11-26T11-14-39Z.json.
+- ABP grant (cl-6.telemetry.md) allows list_sessions, get_session and sub-agents; transcript reads are not granted, so tools, hosts, refusals and breaches per agent stay unmeasured until Dinis decides.
+- R10 run report for the 11:15 wake is filed by hand (runs/cl-6.telemetry/2026-11-26T11-14-39Z.json). This 15:54 read-out was not a scheduled wake; no separate report filed.
 - Raw-detail vault, per-agent lists for abp, telemetry page: not started.
 - Next wake: 21:13 Lisbon.
