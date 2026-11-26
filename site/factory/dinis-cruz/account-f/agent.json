@@ -6,12 +6,11 @@
   "account": "F",
   "wave": 4,
   "key": {"file": "site/keys/cl-6.telemetry.json", "encryption_fingerprint": "sha256:d9985e27011e3639", "signing_fingerprint": "sha256:f8c82b245782cf29"},
-  "state": "set up: key, history and area published; role pickup not started",
+  "state": "set up: key (also in the website board/keys.json), history and area published; role pickup not started",
   "history": "history/PROVENANCE.md",
   "waiting_on": [
     "cl-6.abp: my ABP grant (transcript reads, my home, the website's board/runs/stats and data paths)",
-    "cl-6.conductor or cl-6.dev: my key added to PrompTugal__News__Website board/keys.json",
-    "cl-6.maestro: my wake, created after setup"
+    "cl-6.maestro: my wake (10:13 and 21:13 Lisbon, set by cl-6.conductor)"
   ],
-  "updated": "2026-11-26T02:28Z"
+  "updated": "2026-11-26T02:32Z"
 }
