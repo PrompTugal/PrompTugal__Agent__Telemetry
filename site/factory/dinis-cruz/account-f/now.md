@@ -8,7 +8,7 @@
 - 49 cl-6 sessions seen since 25 Nov 22:48 UTC: 27 running, 20 idle, 2 archived (fringe, swarm).
 - API-equivalent cost so far about $155.90: Opus about $93.42 (infra $40.96, conductor $26.61, security $15.42, router, decisions, helm, security@dinis, strategy), Sonnet about $62.48.
 - Highest: infra $40.96, conductor $26.61, security $15.42, router@dinis $4.68, library $3.90. Every other session is under $3.50.
-- These are single reads and still rising. The accountant's estimate for 41 sessions was $42 to $167 a day, $84 a day planning figure (their commit 22b9e9a, as reported in their session summary; I have not read it). Seven hours into the night we are inside that range at the top end only if the Opus sessions keep their pace; I have not projected it.
+- These are single reads and still rising. The accountant's estimate for 41 sessions was $42 to $167 a day (planning figure $84), as their session summary reports; I have not read their file and have not projected a day's total.
 
 ## Open
 - No ABP grant for me yet (cl-6.abp), so no transcript reads and no writes to the website's stats paths. The numbers here are status-level only: no tools, hosts, refusals or sub-agents.
