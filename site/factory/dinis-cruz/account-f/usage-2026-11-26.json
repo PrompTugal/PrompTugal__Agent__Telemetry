@@ -1,0 +1,412 @@
+{
+ "as_of": "2026-11-26T02:38Z",
+ "scope": "the cl-6 sessions started from 25 Nov 22:48 UTC; get_session usage only (cost_usd is API-equivalent, as reported at read time); no transcripts read",
+ "sessions": 49,
+ "total_cost_usd": 155.9,
+ "by_model_usd": {
+  "opus": 93.42,
+  "sonnet": 62.48
+ },
+ "running": 27,
+ "idle": 20,
+ "archived": 2,
+ "rows": [
+  {
+   "agent": "router@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 4.68,
+   "output_tokens": 31606,
+   "created": "2026-11-25T22:49Z"
+  },
+  {
+   "agent": "infra",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 40.96,
+   "output_tokens": 192290,
+   "created": "2026-11-25T22:48Z"
+  },
+  {
+   "agent": "conductor",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 26.61,
+   "output_tokens": 256300,
+   "created": "2026-11-25T22:48Z"
+  },
+  {
+   "agent": "decisions@dinis",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 2.96,
+   "output_tokens": 9788,
+   "created": "2026-11-25T23:15Z"
+  },
+  {
+   "agent": "helm@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 0.75,
+   "output_tokens": 3634,
+   "created": "2026-11-25T23:08Z"
+  },
+  {
+   "agent": "security@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 1.11,
+   "output_tokens": 6282,
+   "created": "2026-11-25T23:15Z"
+  },
+  {
+   "agent": "strategy@dinis",
+   "model": "opus",
+   "status": "idle",
+   "cost_usd": 0.93,
+   "output_tokens": 7946,
+   "created": "2026-11-25T23:15Z"
+  },
+  {
+   "agent": "accountant@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.58,
+   "output_tokens": 26189,
+   "created": "2026-11-25T23:15Z"
+  },
+  {
+   "agent": "abp",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.04,
+   "output_tokens": 26153,
+   "created": "2026-11-26T01:31Z"
+  },
+  {
+   "agent": "data",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.74,
+   "output_tokens": 22503,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "weather",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 2.31,
+   "output_tokens": 27728,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "travel",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.55,
+   "output_tokens": 34499,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "civic",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.32,
+   "output_tokens": 22699,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "startups",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.43,
+   "output_tokens": 25909,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "library",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 3.9,
+   "output_tokens": 36602,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "signals",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.46,
+   "output_tokens": 29254,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "cyber",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.43,
+   "output_tokens": 30176,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "events",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.33,
+   "output_tokens": 27926,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "live",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.08,
+   "output_tokens": 23701,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "videos",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.6,
+   "output_tokens": 28094,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "bulletins",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.18,
+   "output_tokens": 26088,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "fringe",
+   "model": "sonnet",
+   "status": "archived",
+   "cost_usd": 3.07,
+   "output_tokens": 31400,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "swarm",
+   "model": "sonnet",
+   "status": "archived",
+   "cost_usd": 1.34,
+   "output_tokens": 24944,
+   "created": "2026-11-26T01:41Z"
+  },
+  {
+   "agent": "dev",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 3.41,
+   "output_tokens": 60072,
+   "created": "2026-11-26T01:43Z"
+  },
+  {
+   "agent": "security",
+   "model": "opus",
+   "status": "running",
+   "cost_usd": 15.42,
+   "output_tokens": 73581,
+   "created": "2026-11-26T01:43Z"
+  },
+  {
+   "agent": "correspondent",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.95,
+   "output_tokens": 17010,
+   "created": "2026-11-26T01:43Z"
+  },
+  {
+   "agent": "website-attach-session (untitled)",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.34,
+   "output_tokens": 11973,
+   "created": "2026-11-26T01:43Z"
+  },
+  {
+   "agent": "places",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 3.43,
+   "output_tokens": 51990,
+   "created": "2026-11-26T02:16Z"
+  },
+  {
+   "agent": "designer",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.13,
+   "output_tokens": 21584,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "accountant",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 0.32,
+   "output_tokens": 6262,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "ontologist",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.96,
+   "output_tokens": 15008,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "observability",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 2.32,
+   "output_tokens": 24288,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "devops",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.77,
+   "output_tokens": 22494,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "sherpa",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.3,
+   "output_tokens": 5559,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "synthetic",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.88,
+   "output_tokens": 16536,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "rights",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.01,
+   "output_tokens": 16224,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "translator",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.94,
+   "output_tokens": 13946,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "telemetry",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.66,
+   "output_tokens": 25297,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "historian",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.84,
+   "output_tokens": 16038,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "researcher",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.23,
+   "output_tokens": 27698,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "outreach",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 0.34,
+   "output_tokens": 7346,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "backup",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.69,
+   "output_tokens": 18114,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "investors",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 1.04,
+   "output_tokens": 21560,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "customers",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 0.85,
+   "output_tokens": 16595,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "reviewer",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.32,
+   "output_tokens": 22918,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "curator",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.76,
+   "output_tokens": 15810,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 0.75,
+   "output_tokens": 17259,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "programme",
+   "model": "sonnet",
+   "status": "running",
+   "cost_usd": 1.03,
+   "output_tokens": 20673,
+   "created": "2026-11-26T02:23Z"
+  },
+  {
+   "agent": "analyst",
+   "model": "sonnet",
+   "status": "idle",
+   "cost_usd": 0.85,
+   "output_tokens": 17480,
+   "created": "2026-11-26T02:23Z"
+  }
+ ],
+ "notes": [
+  "Rows are single reads taken between about 02:36 and 02:38 UTC; later totals are higher.",
+  "'website-attach-session (untitled)' is a session whose title is its first prompt; its role is not stated in its record.",
+  "The 21 Nov figure from telemetry.b (about $3,750 over 36 sessions) is a different set of sessions and is not comparable."
+ ]
+}
