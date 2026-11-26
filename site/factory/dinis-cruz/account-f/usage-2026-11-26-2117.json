@@ -1,0 +1,2348 @@
+{
+ "as_of": "2026-11-26T21:14:50Z",
+ "scope": "get_session usage and metadata only; no transcripts. cost_usd API-equivalent as reported. Rows were typed by a helper from the tool results and checked here only for totals that went down since 15:54 (none).",
+ "previous": "usage-2026-11-26-1555.json",
+ "sessions": 69,
+ "total_cost_usd": 1203.8,
+ "over_budget_budgets_json_16Nov": [
+  [
+   "conductor",
+   91.3,
+   50
+  ],
+  [
+   "abp",
+   26.45,
+   25
+  ],
+  [
+   "dev",
+   68.43,
+   60
+  ],
+  [
+   "security",
+   244.98,
+   30
+  ],
+  [
+   "devops",
+   26.62,
+   20
+  ],
+  [
+   "translator",
+   22.77,
+   10
+  ],
+  [
+   "backup",
+   8.8,
+   5
+  ],
+  [
+   "conductor",
+   53.51,
+   50
+  ]
+ ],
+ "rows": [
+  {
+   "agent": "infra",
+   "id": "session_016CrbJMTBpiuD87CmNWcUd6",
+   "title": "cl-6.infra@PrompTugal.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T22:48:43.924718Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 16,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 111.41,
+    "input_tokens": 73058,
+    "output_tokens": 405376,
+    "cache_read_tokens": 287334598,
+    "cache_write_tokens": 5689255
+   },
+   "context": {
+    "used_tokens": 536201,
+    "max_tokens": 1000000,
+    "used_at_1554": 179497
+   },
+   "since_1554_utc": {
+    "cost_usd": 30.66,
+    "input_tokens": 8488,
+    "output_tokens": 83943,
+    "cache_read_tokens": 59378561,
+    "cache_write_tokens": 2133415
+   },
+   "reset_or_replaced": [
+    "worker epoch 11 to 16 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "conductor",
+   "id": "session_016CrbJKttr9TiHHDsuGnmF1",
+   "title": "[ARCHIVED, replaced 26 Nov 16:38] cl-6.conductor@PrompTugal.dinis",
+   "model": "opus",
+   "status": "archived",
+   "created_at": "2026-11-25T22:48:46.168274Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 18,
+   "repos": 8,
+   "totals": {
+    "cost_usd": 91.3,
+    "input_tokens": 441334,
+    "output_tokens": 523816,
+    "cache_read_tokens": 312934717,
+    "cache_write_tokens": 2880124
+   },
+   "context": {
+    "used_tokens": 504709,
+    "max_tokens": 1000000,
+    "used_at_1554": 351132
+   },
+   "since_1554_utc": {
+    "cost_usd": 17.88,
+    "input_tokens": 18064,
+    "output_tokens": 60242,
+    "cache_read_tokens": 76753047,
+    "cache_write_tokens": 153577
+   },
+   "reset_or_replaced": [
+    "archived and replaced (title says so); totals are final"
+   ],
+   "budget_per_day_usd": 50
+  },
+  {
+   "agent": "router@dinis",
+   "id": "session_016CrbJJ742C2CdXXkrRs1Zq",
+   "title": "cl-6.router@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T22:49:47.605472Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 12,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 11.18,
+    "input_tokens": 686,
+    "output_tokens": 45670,
+    "cache_read_tokens": 13773563,
+    "cache_write_tokens": 937496
+   },
+   "context": {
+    "used_tokens": 230584,
+    "max_tokens": 1000000,
+    "used_at_1554": 205036
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.75,
+    "input_tokens": 42,
+    "output_tokens": 11037,
+    "cache_read_tokens": 4254721,
+    "cache_write_tokens": 333791
+   },
+   "reset_or_replaced": [
+    "worker epoch 8 to 12 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "helm@dinis",
+   "id": "session_016CrbJMrS4XKpxUPGCj2Yhf",
+   "title": "cl-6.helm@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T23:08:22.950102Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.75,
+    "input_tokens": 14,
+    "output_tokens": 3634,
+    "cache_read_tokens": 421876,
+    "cache_write_tokens": 74264
+   },
+   "context": {
+    "used_tokens": 91516,
+    "max_tokens": 1000000,
+    "used_at_1554": 91516
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "decisions@dinis",
+   "id": "session_016CrbJMwTgwKXwaYUTEopQk",
+   "title": "cl-6.decisions@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T23:15:25.329452Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 11,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 72.78,
+    "input_tokens": 18346,
+    "output_tokens": 144959,
+    "cache_read_tokens": 135117223,
+    "cache_write_tokens": 5344985
+   },
+   "context": {
+    "used_tokens": 778928,
+    "max_tokens": 1000000,
+    "used_at_1554": 157572
+   },
+   "since_1554_utc": {
+    "cost_usd": 69.5,
+    "input_tokens": 17278,
+    "output_tokens": 132648,
+    "cache_read_tokens": 132012394,
+    "cache_write_tokens": 5043731
+   },
+   "reset_or_replaced": [
+    "worker epoch 3 to 11 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "security@dinis",
+   "id": "session_016CrbJJS2JEBgcWYnXZQGrE",
+   "title": "cl-6.security@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T23:15:27.601217Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 6,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 32.11,
+    "input_tokens": 5404,
+    "output_tokens": 108841,
+    "cache_read_tokens": 64759862,
+    "cache_write_tokens": 2118023
+   },
+   "context": {
+    "used_tokens": 598355,
+    "max_tokens": 1000000,
+    "used_at_1554": 108902
+   },
+   "since_1554_utc": {
+    "cost_usd": 31.0,
+    "input_tokens": 5377,
+    "output_tokens": 102559,
+    "cache_read_tokens": 63522365,
+    "cache_write_tokens": 2026242
+   },
+   "reset_or_replaced": [
+    "worker epoch 1 to 6 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "strategy@dinis",
+   "id": "session_016CrbJKwZL7zgYhVwDosQsT",
+   "title": "cl-6.strategy@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-25T23:15:29.854901Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.93,
+    "input_tokens": 38,
+    "output_tokens": 7946,
+    "cache_read_tokens": 1807253,
+    "cache_write_tokens": 51086
+   },
+   "context": {
+    "used_tokens": 112537,
+    "max_tokens": 1000000,
+    "used_at_1554": 112537
+   },
+   "since_1554_utc": {
+    "cost_usd": -0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "accountant@dinis",
+   "id": "session_016CrbJJ7NP5eaJypGAHgdGi",
+   "title": "[ARCHIVED, replaced 26 Nov 16:56] cl-6.accountant@dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-25T23:15:32.076854Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 6,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 17.7,
+    "input_tokens": 7333,
+    "output_tokens": 101184,
+    "cache_read_tokens": 50232692,
+    "cache_write_tokens": 2910318
+   },
+   "context": {
+    "used_tokens": 557880,
+    "max_tokens": 1000000,
+    "used_at_1554": 452020
+   },
+   "since_1554_utc": {
+    "cost_usd": 8.32,
+    "input_tokens": 7237,
+    "output_tokens": 31909,
+    "cache_read_tokens": 37810887,
+    "cache_write_tokens": 1048575
+   },
+   "reset_or_replaced": [
+    "worker epoch 4 to 6 (worker restarted)",
+    "archived and replaced (title says so); totals are final"
+   ]
+  },
+  {
+   "agent": "abp",
+   "id": "session_016CrbJK3xXBhUMA6rucuPPd",
+   "title": "[ARCHIVED, replaced 26 Nov 16:55] cl-6.abp@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T01:31:07.478540Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 9,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 26.45,
+    "input_tokens": 16274,
+    "output_tokens": 387878,
+    "cache_read_tokens": 138666904,
+    "cache_write_tokens": 2161659
+   },
+   "context": {
+    "used_tokens": 128007,
+    "max_tokens": 1000000,
+    "used_at_1554": 381197
+   },
+   "since_1554_utc": {
+    "cost_usd": 15.72,
+    "input_tokens": 10991,
+    "output_tokens": 284359,
+    "cache_read_tokens": 108593183,
+    "cache_write_tokens": 494700
+   },
+   "reset_or_replaced": [
+    "context fell 381197 to 128007 since 15:54 (compaction or reset)",
+    "worker epoch 8 to 9 (worker restarted)",
+    "archived and replaced (title says so); totals are final"
+   ],
+   "budget_per_day_usd": 25
+  },
+  {
+   "agent": "data",
+   "id": "session_016CrbJJKUtCUXi5dhrb3Ahs",
+   "title": "cl-6.data@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:09.189404Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 11,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 27.63,
+    "input_tokens": 11018,
+    "output_tokens": 81260,
+    "cache_read_tokens": 66071403,
+    "cache_write_tokens": 5042523
+   },
+   "context": {
+    "used_tokens": 651147,
+    "max_tokens": 1000000,
+    "used_at_1554": 388580
+   },
+   "since_1554_utc": {
+    "cost_usd": 17.68,
+    "input_tokens": 5724,
+    "output_tokens": 26345,
+    "cache_read_tokens": 36908006,
+    "cache_write_tokens": 3425862
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 11 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "weather",
+   "id": "session_016CrbJMaWr7p8W8MaDmhsYG",
+   "title": "cl-6.weather@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:11.269722Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 6.09,
+    "input_tokens": 4220,
+    "output_tokens": 34939,
+    "cache_read_tokens": 20043465,
+    "cache_write_tokens": 931130
+   },
+   "context": {
+    "used_tokens": 310609,
+    "max_tokens": 1000000,
+    "used_at_1554": 302870
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.19,
+    "input_tokens": 13,
+    "output_tokens": 1570,
+    "cache_read_tokens": 1903554,
+    "cache_write_tokens": 246431
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "travel",
+   "id": "session_016CrbJMxEaAKd9efCfrsom6",
+   "title": "cl-6.travel@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:13.374147Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 6,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 4.37,
+    "input_tokens": 49295,
+    "output_tokens": 50809,
+    "cache_read_tokens": 14728447,
+    "cache_write_tokens": 593396
+   },
+   "context": {
+    "used_tokens": 226056,
+    "max_tokens": 1000000,
+    "used_at_1554": 222735
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.69,
+    "input_tokens": 4,
+    "output_tokens": 435,
+    "cache_read_tokens": 287894,
+    "cache_write_tokens": 162087
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 6 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "civic",
+   "id": "session_016CrbJMSWe1qtqBQrSeeHQf",
+   "title": "cl-6.civic@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:15.474456Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 9,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 7.6,
+    "input_tokens": 730,
+    "output_tokens": 65569,
+    "cache_read_tokens": 24208895,
+    "cache_write_tokens": 1129460
+   },
+   "context": {
+    "used_tokens": 314384,
+    "max_tokens": 1000000,
+    "used_at_1554": 305665
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.18,
+    "input_tokens": 11,
+    "output_tokens": 2489,
+    "cache_read_tokens": 1613097,
+    "cache_write_tokens": 250101
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 9 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "startups",
+   "id": "session_016CrbJHzEkmE5jEdT2WpVzC",
+   "title": "cl-6.startups@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:17.665593Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 7.35,
+    "input_tokens": 105154,
+    "output_tokens": 80542,
+    "cache_read_tokens": 31677268,
+    "cache_write_tokens": 835273
+   },
+   "context": {
+    "used_tokens": 310221,
+    "max_tokens": 1000000,
+    "used_at_1554": 278946
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.78,
+    "input_tokens": 43977,
+    "output_tokens": 15338,
+    "cache_read_tokens": 6312548,
+    "cache_write_tokens": 245619
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "library",
+   "id": "session_016CrbJNfPpkijB4Czf4L2DD",
+   "title": "cl-6.library@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:19.931760Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 15.85,
+    "input_tokens": 2751,
+    "output_tokens": 61382,
+    "cache_read_tokens": 26478099,
+    "cache_write_tokens": 3144910
+   },
+   "context": {
+    "used_tokens": 469682,
+    "max_tokens": 1000000,
+    "used_at_1554": 434241
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.35,
+    "input_tokens": 4,
+    "output_tokens": 408,
+    "cache_read_tokens": 71909,
+    "cache_write_tokens": 834536
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 8 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "signals",
+   "id": "session_016CrbJLzfdz51sDBekg8v8X",
+   "title": "cl-6.signals@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:22.140246Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 5.19,
+    "input_tokens": 2743,
+    "output_tokens": 58883,
+    "cache_read_tokens": 19278071,
+    "cache_write_tokens": 664468
+   },
+   "context": {
+    "used_tokens": 245835,
+    "max_tokens": 1000000,
+    "used_at_1554": 242090
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.8,
+    "input_tokens": 6,
+    "output_tokens": 915,
+    "cache_read_tokens": 552210,
+    "cache_write_tokens": 181866
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 8 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "cyber",
+   "id": "session_016CrbJLwU9iQ41Xv3q2VZwk",
+   "title": "cl-6.cyber@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:24.312315Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 13.97,
+    "input_tokens": 4282,
+    "output_tokens": 69506,
+    "cache_read_tokens": 29619990,
+    "cache_write_tokens": 2573743
+   },
+   "context": {
+    "used_tokens": 446417,
+    "max_tokens": 1000000,
+    "used_at_1554": 394950
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.84,
+    "input_tokens": 540,
+    "output_tokens": 8503,
+    "cache_read_tokens": 6653064,
+    "cache_write_tokens": 771551
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "events",
+   "id": "session_016CrbJNMHQRQmkvWGwFt7BL",
+   "title": "cl-6.events@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:26.417257Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 8,
+   "repos": 3,
+   "totals": {
+    "cost_usd": 5.6,
+    "input_tokens": 1703,
+    "output_tokens": 55539,
+    "cache_read_tokens": 16456024,
+    "cache_write_tokens": 847411
+   },
+   "context": {
+    "used_tokens": 248781,
+    "max_tokens": 1000000,
+    "used_at_1554": 241670
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.59,
+    "input_tokens": 11,
+    "output_tokens": 1221,
+    "cache_read_tokens": 1107676,
+    "cache_write_tokens": 366473
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "live",
+   "id": "session_016CrbJMc7qc59eSmeqUAW6q",
+   "title": "cl-6.live@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:28.312852Z",
+   "read_at": "2026-11-26T21:16:36Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 10.71,
+    "input_tokens": 2181,
+    "output_tokens": 39179,
+    "cache_read_tokens": 13584600,
+    "cache_write_tokens": 2238517
+   },
+   "context": {
+    "used_tokens": 379316,
+    "max_tokens": 1000000,
+    "used_at_1554": 344078
+   },
+   "since_1554_utc": {
+    "cost_usd": 2.62,
+    "input_tokens": 4,
+    "output_tokens": 160,
+    "cache_read_tokens": 71909,
+    "cache_write_tokens": 653800
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "videos",
+   "id": "session_016CrbJMuWrQhMqNFVLoX3dS",
+   "title": "cl-6.videos@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:30.432981Z",
+   "read_at": "2026-11-26T21:16:58Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 5.42,
+    "input_tokens": 3761,
+    "output_tokens": 55600,
+    "cache_read_tokens": 20733538,
+    "cache_write_tokens": 694723
+   },
+   "context": {
+    "used_tokens": 256417,
+    "max_tokens": 1000000,
+    "used_at_1554": 250258
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.93,
+    "input_tokens": 13,
+    "output_tokens": 2506,
+    "cache_read_tokens": 1335263,
+    "cache_write_tokens": 192448
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "bulletins",
+   "id": "session_016CrbJN84epGHrjZ5CT51bY",
+   "title": "cl-6.bulletins@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:41:32.565401Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 4.77,
+    "input_tokens": 3720,
+    "output_tokens": 50410,
+    "cache_read_tokens": 16504506,
+    "cache_write_tokens": 649273
+   },
+   "context": {
+    "used_tokens": 241680,
+    "max_tokens": 1000000,
+    "used_at_1554": 238541
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.75,
+    "input_tokens": 4,
+    "output_tokens": 304,
+    "cache_read_tokens": 303513,
+    "cache_write_tokens": 177711
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "fringe",
+   "id": "session_016CrbJKaYmvvH9W9jBkyyHE",
+   "title": "cl-6.fringe@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T01:41:34.701650Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 3,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 3.07,
+    "input_tokens": 84,
+    "output_tokens": 31400,
+    "cache_read_tokens": 5949979,
+    "cache_write_tokens": 539450
+   },
+   "context": {
+    "used_tokens": 247984,
+    "max_tokens": 1000000,
+    "used_at_1554": 247984
+   },
+   "since_1554_utc": {
+    "cost_usd": -0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "swarm",
+   "id": "session_016CrbJNB2WPgCAvU2KSmRmY",
+   "title": "cl-6.swarm@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T01:41:36.785255Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 3,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.34,
+    "input_tokens": 79,
+    "output_tokens": 24944,
+    "cache_read_tokens": 6132178,
+    "cache_write_tokens": 118462
+   },
+   "context": {
+    "used_tokens": 183512,
+    "max_tokens": 1000000,
+    "used_at_1554": 183512
+   },
+   "since_1554_utc": {
+    "cost_usd": -0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+   },
+   "reset_or_replaced": []
+  },
+  {
+   "agent": "journalist",
+   "id": "session_016CrbJLhtarwbcbxJnrF3bP",
+   "title": "[ARCHIVED, replaced 26 Nov 16:56] cl-6.journalist@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T01:43:26.960923Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 11,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 30.85,
+    "input_tokens": 69212,
+    "output_tokens": 126002,
+    "cache_read_tokens": 89073869,
+    "cache_write_tokens": 5160413
+   },
+   "context": {
+    "used_tokens": 692295,
+    "max_tokens": 1000000,
+    "used_at_1554": 561278
+   },
+   "since_1554_utc": {
+    "cost_usd": 10.64,
+    "input_tokens": 599,
+    "output_tokens": 29946,
+    "cache_read_tokens": 25279510,
+    "cache_write_tokens": 1951628
+   },
+   "reset_or_replaced": [
+    "worker epoch 9 to 11 (worker restarted)",
+    "archived and replaced (title says so); totals are final"
+   ],
+   "budget_per_day_usd": 35
+  },
+  {
+   "agent": "dev",
+   "id": "session_016CrbJKEPqF3pNfbncgHqvy",
+   "title": "cl-6.dev@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:43:29.328474Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 9,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 68.43,
+    "input_tokens": 40030,
+    "output_tokens": 664362,
+    "cache_read_tokens": 471598522,
+    "cache_write_tokens": 3622737
+   },
+   "context": {
+    "used_tokens": 149451,
+    "max_tokens": 1000000,
+    "used_at_1554": 285692
+   },
+   "since_1554_utc": {
+    "cost_usd": 26.31,
+    "input_tokens": 11385,
+    "output_tokens": 288999,
+    "cache_read_tokens": 209298388,
+    "cache_write_tokens": 609179
+   },
+   "reset_or_replaced": [
+    "context fell 285692 to 149451 since 15:54 (compaction or reset)",
+    "worker epoch 8 to 9 (worker restarted)"
+   ],
+   "budget_per_day_usd": 60
+  },
+  {
+   "agent": "security",
+   "id": "session_016CrbJKgXxEmneR8fKwoPhS",
+   "title": "cl-6.security@PrompTugal.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T01:43:31.460424Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 37,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 244.98,
+    "input_tokens": 804063,
+    "output_tokens": 704359,
+    "cache_read_tokens": 505138560,
+    "cache_write_tokens": 15886792
+   },
+   "context": {
+    "used_tokens": 663530,
+    "max_tokens": 1000000,
+    "used_at_1554": 647318
+   },
+   "since_1554_utc": {
+    "cost_usd": 130.03,
+    "input_tokens": 35467,
+    "output_tokens": 403728,
+    "cache_read_tokens": 294735921,
+    "cache_write_tokens": 7916433
+   },
+   "reset_or_replaced": [
+    "worker epoch 17 to 37 (worker restarted)"
+   ],
+   "budget_per_day_usd": 30
+  },
+  {
+   "agent": "correspondent",
+   "id": "session_016CrbJKBK3KAiWXzESjt3zH",
+   "title": "cl-6.correspondent@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T01:43:33.696853Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 14,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 7.75,
+    "input_tokens": 39702,
+    "output_tokens": 67557,
+    "cache_read_tokens": 36766867,
+    "cache_write_tokens": 909468
+   },
+   "context": {
+    "used_tokens": 306510,
+    "max_tokens": 1000000,
+    "used_at_1554": 254145
+   },
+   "since_1554_utc": {
+    "cost_usd": 2.46,
+    "input_tokens": 3125,
+    "output_tokens": 13374,
+    "cache_read_tokens": 12722670,
+    "cache_write_tokens": 260650
+   },
+   "reset_or_replaced": [
+    "worker epoch 8 to 14 (worker restarted)"
+   ],
+   "budget_per_day_usd": 40
+  },
+  {
+   "agent": "places",
+   "id": "session_016CrbJJcoCJnQM6GGY1xC5K",
+   "title": "cl-6.places@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:16:31.071450Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 11,
+   "repos": 36,
+   "totals": {
+    "cost_usd": 12.43,
+    "input_tokens": 11076,
+    "output_tokens": 92049,
+    "cache_read_tokens": 67278687,
+    "cache_write_tokens": 1186503
+   },
+   "context": {
+    "used_tokens": 416276,
+    "max_tokens": 1000000,
+    "used_at_1554": 381022
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.8,
+    "input_tokens": 3617,
+    "output_tokens": 10343,
+    "cache_read_tokens": 15475136,
+    "cache_write_tokens": 34179
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 11 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "designer",
+   "id": "session_016CrbJKnk1brEbFLeWGxmxT",
+   "title": "cl-6.designer@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:09.051308Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 15,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 10.87,
+    "input_tokens": 6445,
+    "output_tokens": 96796,
+    "cache_read_tokens": 44961204,
+    "cache_write_tokens": 1344310
+   },
+   "context": {
+    "used_tokens": 372521,
+    "max_tokens": 1000000,
+    "used_at_1554": 295717
+   },
+   "since_1554_utc": {
+    "cost_usd": 4.54,
+    "input_tokens": 2139,
+    "output_tokens": 29429,
+    "cache_read_tokens": 19444253,
+    "cache_write_tokens": 570701
+   },
+   "reset_or_replaced": [
+    "worker epoch 8 to 15 (worker restarted)"
+   ],
+   "budget_per_day_usd": 50
+  },
+  {
+   "agent": "accountant",
+   "id": "session_016CrbJLU6NN6yvcGyy3HEg3",
+   "title": "cl-6.accountant@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:11.202851Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 10,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 2.71,
+    "input_tokens": 5754,
+    "output_tokens": 34441,
+    "cache_read_tokens": 12536060,
+    "cache_write_tokens": 273050
+   },
+   "context": {
+    "used_tokens": 178182,
+    "max_tokens": 1000000,
+    "used_at_1554": 146149
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.75,
+    "input_tokens": 3101,
+    "output_tokens": 7499,
+    "cache_read_tokens": 5476580,
+    "cache_write_tokens": 30469
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 10 (worker restarted)"
+   ],
+   "budget_per_day_usd": 10
+  },
+  {
+   "agent": "ontologist",
+   "id": "session_016CrbJKcMRN3j2H1qSP6eGy",
+   "title": "cl-6.ontologist@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:13.346066Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 14.9,
+    "input_tokens": 8193,
+    "output_tokens": 84450,
+    "cache_read_tokens": 40629133,
+    "cache_write_tokens": 2492143
+   },
+   "context": {
+    "used_tokens": 465084,
+    "max_tokens": 1000000,
+    "used_at_1554": 388774
+   },
+   "since_1554_utc": {
+    "cost_usd": 5.03,
+    "input_tokens": 16,
+    "output_tokens": 5046,
+    "cache_read_tokens": 2805047,
+    "cache_write_tokens": 1173004
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ],
+   "budget_per_day_usd": 30
+  },
+  {
+   "agent": "observability",
+   "id": "session_016CrbJK6qQvXVy64vKPgEe1",
+   "title": "cl-6.observability@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:15.462270Z",
+   "read_at": "2026-11-26T21:16:08Z",
+   "worker_epoch": 5,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 8.86,
+    "input_tokens": 3915,
+    "output_tokens": 30733,
+    "cache_read_tokens": 9690649,
+    "cache_write_tokens": 1894407
+   },
+   "context": {
+    "used_tokens": 348921,
+    "max_tokens": 1000000,
+    "used_at_1554": 313573
+   },
+   "since_1554_utc": {
+    "cost_usd": 2.38,
+    "input_tokens": 4,
+    "output_tokens": 501,
+    "cache_read_tokens": 71910,
+    "cache_write_tokens": 593005
+   },
+   "reset_or_replaced": [
+    "worker epoch 4 to 5 (worker restarted)"
+   ],
+   "budget_per_day_usd": 30
+  },
+  {
+   "agent": "devops",
+   "id": "session_016CrbJLNFt4cFTXMVgkqcCY",
+   "title": "[ARCHIVED, replaced 26 Nov 16:56] cl-6.devops@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T02:23:17.705789Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 11,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 26.62,
+    "input_tokens": 5887,
+    "output_tokens": 84547,
+    "cache_read_tokens": 43740225,
+    "cache_write_tokens": 5433344
+   },
+   "context": {
+    "used_tokens": 614362,
+    "max_tokens": 1000000,
+    "used_at_1554": 448893
+   },
+   "since_1554_utc": {
+    "cost_usd": 13.92,
+    "input_tokens": 1588,
+    "output_tokens": 16118,
+    "cache_read_tokens": 15968974,
+    "cache_write_tokens": 3038813
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 11 (worker restarted)",
+    "archived and replaced (title says so); totals are final"
+   ],
+   "budget_per_day_usd": 20
+  },
+  {
+   "agent": "sherpa",
+   "id": "session_016CrbJMWWVdEEuaqxoSn7QC",
+   "title": "cl-6.sherpa@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:19.911830Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 5.74,
+    "input_tokens": 5018,
+    "output_tokens": 60724,
+    "cache_read_tokens": 19545626,
+    "cache_write_tokens": 792120
+   },
+   "context": {
+    "used_tokens": 263795,
+    "max_tokens": 1000000,
+    "used_at_1554": 239381
+   },
+   "since_1554_utc": {
+    "cost_usd": 2.12,
+    "input_tokens": 1558,
+    "output_tokens": 10458,
+    "cache_read_tokens": 4956664,
+    "cache_write_tokens": 378890
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ],
+   "budget_per_day_usd": 25
+  },
+  {
+   "agent": "synthetic",
+   "id": "session_016CrbJMS4781bAVGCP7qfap",
+   "title": "cl-6.synthetic@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:22.087363Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 4.3,
+    "input_tokens": 2929,
+    "output_tokens": 41285,
+    "cache_read_tokens": 11739256,
+    "cache_write_tokens": 678083
+   },
+   "context": {
+    "used_tokens": 226225,
+    "max_tokens": 1000000,
+    "used_at_1554": 209093
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.5,
+    "input_tokens": 18,
+    "output_tokens": 6741,
+    "cache_read_tokens": 1862863,
+    "cache_write_tokens": 311260
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ],
+   "budget_per_day_usd": 60
+  },
+  {
+   "agent": "rights",
+   "id": "session_016CrbJJ4rKxNqiEKKhAaWAT",
+   "title": "cl-6.rights@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:24.104040Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 12,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 26.92,
+    "input_tokens": 5107,
+    "output_tokens": 106395,
+    "cache_read_tokens": 51509407,
+    "cache_write_tokens": 5172255
+   },
+   "context": {
+    "used_tokens": 662149,
+    "max_tokens": 1000000,
+    "used_at_1554": 316410
+   },
+   "since_1554_utc": {
+    "cost_usd": 20.31,
+    "input_tokens": 2179,
+    "output_tokens": 63022,
+    "cache_read_tokens": 37603633,
+    "cache_write_tokens": 3976962
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 12 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "translator",
+   "id": "session_016CrbJHy25niw9qrWwrVc9S",
+   "title": "cl-6.translator@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:26.178294Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 10,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 22.77,
+    "input_tokens": 4582,
+    "output_tokens": 97786,
+    "cache_read_tokens": 38454783,
+    "cache_write_tokens": 4483527
+   },
+   "context": {
+    "used_tokens": 570208,
+    "max_tokens": 1000000,
+    "used_at_1554": 475707
+   },
+   "since_1554_utc": {
+    "cost_usd": 8.56,
+    "input_tokens": 537,
+    "output_tokens": 15420,
+    "cache_read_tokens": 6860224,
+    "cache_write_tokens": 1928726
+   },
+   "reset_or_replaced": [
+    "worker epoch 8 to 10 (worker restarted)"
+   ],
+   "budget_per_day_usd": 10
+  },
+  {
+   "agent": "telemetry",
+   "id": "session_016CrbJKQ8xgNBKsWaaetm7x",
+   "title": "cl-6.telemetry@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "running",
+   "created_at": "2026-11-26T02:23:28.295373Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 9.75,
+    "input_tokens": 6577,
+    "output_tokens": 124989,
+    "cache_read_tokens": 22088523,
+    "cache_write_tokens": 1808536
+   },
+   "context": {
+    "used_tokens": 296516,
+    "max_tokens": 1000000,
+    "used_at_1554": 263836
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.72,
+    "input_tokens": 1593,
+    "output_tokens": 45777,
+    "cache_read_tokens": 7740931,
+    "cache_write_tokens": 705336
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 8 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "historian",
+   "id": "session_016CrbJLLxVYAM8QwqHBV7aM",
+   "title": "cl-6.historian@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:30.367297Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 4.97,
+    "input_tokens": 112671,
+    "output_tokens": 44704,
+    "cache_read_tokens": 12714642,
+    "cache_write_tokens": 756681
+   },
+   "context": {
+    "used_tokens": 220523,
+    "max_tokens": 1000000,
+    "used_at_1554": 205928
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.38,
+    "input_tokens": 13,
+    "output_tokens": 5278,
+    "cache_read_tokens": 1188123,
+    "cache_write_tokens": 301737
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ],
+   "budget_per_day_usd": 15
+  },
+  {
+   "agent": "researcher",
+   "id": "session_016CrbJMo1RxSSek8dG1KAgr",
+   "title": "cl-6.researcher@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:32.435159Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 8,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 8.06,
+    "input_tokens": 9150,
+    "output_tokens": 80656,
+    "cache_read_tokens": 33297512,
+    "cache_write_tokens": 974763
+   },
+   "context": {
+    "used_tokens": 333045,
+    "max_tokens": 1000000,
+    "used_at_1554": 268870
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.37,
+    "input_tokens": 3115,
+    "output_tokens": 17351,
+    "cache_read_tokens": 12439884,
+    "cache_write_tokens": 485724
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 8 (worker restarted)"
+   ],
+   "budget_per_day_usd": 10
+  },
+  {
+   "agent": "outreach",
+   "id": "session_016CrbJKSAFT2v7Mkhpc4uJd",
+   "title": "cl-6.outreach@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:34.428148Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 5,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.14,
+    "input_tokens": 1067,
+    "output_tokens": 13632,
+    "cache_read_tokens": 2735811,
+    "cache_write_tokens": 180771
+   },
+   "context": {
+    "used_tokens": 119434,
+    "max_tokens": 1000000,
+    "used_at_1554": 115938
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.25,
+    "input_tokens": 4,
+    "output_tokens": 365,
+    "cache_read_tokens": 181228,
+    "cache_write_tokens": 55465
+   },
+   "reset_or_replaced": [
+    "worker epoch 4 to 5 (worker restarted)"
+   ],
+   "budget_per_day_usd": 20
+  },
+  {
+   "agent": "backup",
+   "id": "session_016CrbJLUcdAqJPbap3cW4nW",
+   "title": "cl-6.backup@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:36.555811Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 8.8,
+    "input_tokens": 2895,
+    "output_tokens": 29747,
+    "cache_read_tokens": 8829828,
+    "cache_write_tokens": 1903261
+   },
+   "context": {
+    "used_tokens": 325015,
+    "max_tokens": 1000000,
+    "used_at_1554": 281974
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.43,
+    "input_tokens": 12,
+    "output_tokens": 2436,
+    "cache_read_tokens": 1071830,
+    "cache_write_tokens": 823160
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ],
+   "budget_per_day_usd": 5
+  },
+  {
+   "agent": "investors",
+   "id": "session_016CrbJJDSkkAQSxQ7VDxwzv",
+   "title": "cl-6.investors@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:38.779549Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 3.4,
+    "input_tokens": 2420,
+    "output_tokens": 34819,
+    "cache_read_tokens": 9573044,
+    "cache_write_tokens": 522108
+   },
+   "context": {
+    "used_tokens": 186410,
+    "max_tokens": 1000000,
+    "used_at_1554": 176587
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.09,
+    "input_tokens": 13,
+    "output_tokens": 3155,
+    "cache_read_tokens": 1038329,
+    "cache_write_tokens": 238319
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ],
+   "budget_per_day_usd": 15
+  },
+  {
+   "agent": "customers",
+   "id": "session_016CrbJKeq1CbrSckUAYEf2f",
+   "title": "cl-6.customers@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:40.818052Z",
+   "read_at": "2026-11-26T21:15:47Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 2.88,
+    "input_tokens": 1626,
+    "output_tokens": 24331,
+    "cache_read_tokens": 6984420,
+    "cache_write_tokens": 482202
+   },
+   "context": {
+    "used_tokens": 174467,
+    "max_tokens": 1000000,
+    "used_at_1554": 166392
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.97,
+    "input_tokens": 12,
+    "output_tokens": 1986,
+    "cache_read_tokens": 811546,
+    "cache_write_tokens": 216055
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ],
+   "budget_per_day_usd": 15
+  },
+  {
+   "agent": "reviewer",
+   "id": "session_016CrbJMGozMvJhLHPUTvy9j",
+   "title": "cl-6.reviewer@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:42.873Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 9,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 19.74,
+    "input_tokens": 4039,
+    "output_tokens": 78111,
+    "cache_read_tokens": 35298356,
+    "cache_write_tokens": 3854361
+   },
+   "context": {
+    "used_tokens": 572368,
+    "max_tokens": 1000000,
+    "used_at_1554": 478717
+   },
+   "since_1554_utc": {
+    "cost_usd": 6.73,
+    "input_tokens": 538,
+    "output_tokens": 10029,
+    "cache_read_tokens": 7905475,
+    "cache_write_tokens": 1459788
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 9 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "curator",
+   "id": "session_016CrbJLsMrLvFQSaXufU7Xs",
+   "title": "cl-6.curator@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:44.973298Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 5.5,
+    "input_tokens": 46678,
+    "output_tokens": 56162,
+    "cache_read_tokens": 18721627,
+    "cache_write_tokens": 763198
+   },
+   "context": {
+    "used_tokens": 259786,
+    "max_tokens": 1000000,
+    "used_at_1554": 224529
+   },
+   "since_1554_utc": {
+    "cost_usd": 1.72,
+    "input_tokens": 1078,
+    "output_tokens": 16733,
+    "cache_read_tokens": 7618288,
+    "cache_write_tokens": 195817
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "checker",
+   "id": "session_016CrbJKoRCCouKXS7AP8XFe",
+   "title": "cl-6.checker@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:47.166360Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 11,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 12.7,
+    "input_tokens": 4712,
+    "output_tokens": 148916,
+    "cache_read_tokens": 48587330,
+    "cache_write_tokens": 1641916
+   },
+   "context": {
+    "used_tokens": 430780,
+    "max_tokens": 1000000,
+    "used_at_1554": 338839
+   },
+   "since_1554_utc": {
+    "cost_usd": 4.83,
+    "input_tokens": 89,
+    "output_tokens": 36893,
+    "cache_read_tokens": 17766955,
+    "cache_write_tokens": 670830
+   },
+   "reset_or_replaced": [
+    "worker epoch 6 to 11 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "programme",
+   "id": "session_016CrbJLwnkTq2kxfioHp6py",
+   "title": "cl-6.programme@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:49.213129Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 7,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 3.09,
+    "input_tokens": 3408,
+    "output_tokens": 31161,
+    "cache_read_tokens": 8909833,
+    "cache_write_tokens": 468866
+   },
+   "context": {
+    "used_tokens": 198880,
+    "max_tokens": 1000000,
+    "used_at_1554": 190833
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.67,
+    "input_tokens": 11,
+    "output_tokens": 1968,
+    "cache_read_tokens": 1040330,
+    "cache_write_tokens": 134765
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 7 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "analyst",
+   "id": "session_016CrbJKUGGAH6r8MhbuAxyV",
+   "title": "cl-6.analyst@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T02:23:51.340574Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 9,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 4.37,
+    "input_tokens": 4517,
+    "output_tokens": 45791,
+    "cache_read_tokens": 17285974,
+    "cache_write_tokens": 543225
+   },
+   "context": {
+    "used_tokens": 226349,
+    "max_tokens": 1000000,
+    "used_at_1554": 215688
+   },
+   "since_1554_utc": {
+    "cost_usd": 0.84,
+    "input_tokens": 15,
+    "output_tokens": 3561,
+    "cache_read_tokens": 1613214,
+    "cache_write_tokens": 162068
+   },
+   "reset_or_replaced": [
+    "worker epoch 7 to 9 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "maestro@dinis",
+   "id": "session_016CrbJLv54Kh4CSTzagW2G3",
+   "title": "cl-6.maestro@dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T13:43:21.458786Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 16,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 37.48,
+    "input_tokens": 22946,
+    "output_tokens": 197441,
+    "cache_read_tokens": 144873077,
+    "cache_write_tokens": 555813
+   },
+   "context": {
+    "used_tokens": 623508,
+    "max_tokens": 1000000,
+    "used_at_1554": 242372
+   },
+   "since_1554_utc": {
+    "cost_usd": 31.92,
+    "input_tokens": 17835,
+    "output_tokens": 147126,
+    "cache_read_tokens": 129237006,
+    "cache_write_tokens": 378548
+   },
+   "reset_or_replaced": [
+    "worker epoch 5 to 16 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "conductor@sgit.dinis",
+   "id": "session_016CrbJJApzXjpoWrGMpA4u9",
+   "title": "cl-6.conductor@sgit.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T13:54:21.649847Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 2,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 4.81,
+    "input_tokens": 107,
+    "output_tokens": 38275,
+    "cache_read_tokens": 8340867,
+    "cache_write_tokens": 297175
+   },
+   "context": {
+    "used_tokens": 253245,
+    "max_tokens": 1000000,
+    "used_at_1554": 171618
+   },
+   "since_1554_utc": {
+    "cost_usd": 2.56,
+    "input_tokens": 34,
+    "output_tokens": 16858,
+    "cache_read_tokens": 3526016,
+    "cache_write_tokens": 189401
+   },
+   "reset_or_replaced": [
+    "worker epoch 1 to 2 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "conductor@CBR.dinis",
+   "id": "session_016CrbJMcK18EPwejc2vhzB5",
+   "title": "cl-6.conductor@CBR.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T13:54:24.000830Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 2,
+   "repos": 2,
+   "totals": {
+    "cost_usd": 7.62,
+    "input_tokens": 1587,
+    "output_tokens": 71406,
+    "cache_read_tokens": 12169345,
+    "cache_write_tokens": 527461
+   },
+   "context": {
+    "used_tokens": 243211,
+    "max_tokens": 1000000,
+    "used_at_1554": 185125
+   },
+   "since_1554_utc": {
+    "cost_usd": 3.41,
+    "input_tokens": 58,
+    "output_tokens": 30605,
+    "cache_read_tokens": 5607395,
+    "cache_write_tokens": 209463
+   },
+   "reset_or_replaced": [
+    "worker epoch 1 to 2 (worker restarted)"
+   ]
+  },
+  {
+   "agent": "social@dinis",
+   "id": "session_016CrbJMyN2aLFYQ5HJR3HqP",
+   "title": "cl-6.social@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:33:40.397252Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.52,
+    "input_tokens": 2248,
+    "output_tokens": 9977,
+    "cache_read_tokens": 2266412,
+    "cache_write_tokens": 47864
+   },
+   "context": {
+    "used_tokens": 111835,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "conductor",
+   "id": "session_016CrbJMiN8eUtML9vvvGCVt",
+   "title": "cl-6.conductor@PrompTugal.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T16:38:45.033255Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 13,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 53.51,
+    "input_tokens": 9050,
+    "output_tokens": 115831,
+    "cache_read_tokens": 68807777,
+    "cache_write_tokens": 4671650
+   },
+   "context": {
+    "used_tokens": 691075,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ],
+   "budget_per_day_usd": 50
+  },
+  {
+   "agent": "place.london",
+   "id": "session_016CrbJKifSCoGBhUJDMMjpN",
+   "title": "cl-6.place.london@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:38:47.242070Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 5,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.4,
+    "input_tokens": 38779,
+    "output_tokens": 28076,
+    "cache_read_tokens": 7462651,
+    "cache_write_tokens": 99996
+   },
+   "context": {
+    "used_tokens": 158168,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "conductor-sw@SovereignWebsite.dinis",
+   "id": "session_016CrbJJDDrc1h8iMR8TwXKq",
+   "title": "[ARCHIVED, replaced 26 Nov 16:59] cl-6.conductor-sw@SovereignWebsite.dinis",
+   "model": "opus",
+   "status": "archived",
+   "created_at": "2026-11-26T16:39:13.089696Z",
+   "read_at": "2026-11-26T21:15:24Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 5.96,
+    "input_tokens": 4935,
+    "output_tokens": 67044,
+    "cache_read_tokens": 16857922,
+    "cache_write_tokens": 189112
+   },
+   "context": {
+    "used_tokens": 235968,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)",
+    "archived and replaced (title says so); totals are final"
+   ]
+  },
+  {
+   "agent": "data.london",
+   "id": "session_016CrbJMrN6VztFm2YVXmp3b",
+   "title": "cl-6.data.london@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:46:02.825470Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 2,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.83,
+    "input_tokens": 581,
+    "output_tokens": 18743,
+    "cache_read_tokens": 3949810,
+    "cache_write_tokens": 60857
+   },
+   "context": {
+    "used_tokens": 128169,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "observability@dinis",
+   "id": "session_016CrbJMgtqM8V2iwvg4M8BZ",
+   "title": "cl-6.observability@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:47:15.953257Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 2.13,
+    "input_tokens": 1077,
+    "output_tokens": 34411,
+    "cache_read_tokens": 7018549,
+    "cache_write_tokens": 270267
+   },
+   "context": {
+    "used_tokens": 290004,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "observability-sw@SovereignWebsite.dinis",
+   "id": "session_016CrbJLxxCM4FYbD8NdRvQV",
+   "title": "cl-6.observability-sw@SovereignWebsite.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:47:18.418827Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.64,
+    "input_tokens": 553,
+    "output_tokens": 13050,
+    "cache_read_tokens": 2597253,
+    "cache_write_tokens": 61591
+   },
+   "context": {
+    "used_tokens": 125559,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "studio@SovereignWebsite.dinis: Studio for SovereignWebsite",
+   "id": "session_016CrbJJe27HT4pDaUAkSFEi",
+   "title": "cl-6.studio@SovereignWebsite.dinis: Studio for SovereignWebsite",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:49:18.132524Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 3,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 5.22,
+    "input_tokens": 1108,
+    "output_tokens": 43016,
+    "cache_read_tokens": 7796987,
+    "cache_write_tokens": 442084
+   },
+   "context": {
+    "used_tokens": 255449,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "librarian@dinis",
+   "id": "session_016CrbJL9iaXQ1KjPkESLpRK",
+   "title": "cl-6.librarian@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:49:20.423928Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.31,
+    "input_tokens": 25,
+    "output_tokens": 5472,
+    "cache_read_tokens": 1087491,
+    "cache_write_tokens": 36107
+   },
+   "context": {
+    "used_tokens": 100076,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "design@dinis",
+   "id": "session_016CrbJN8TyFQTFEyKbVKSXf",
+   "title": "cl-6.design@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:49:22.728635Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 2,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.19,
+    "input_tokens": 60,
+    "output_tokens": 18294,
+    "cache_read_tokens": 3644311,
+    "cache_write_tokens": 161365
+   },
+   "context": {
+    "used_tokens": 149149,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "onboarding@SovereignWebsite.dinis",
+   "id": "session_016CrbJL9nXnBiLGoiXLGM2N",
+   "title": "cl-6.onboarding@SovereignWebsite.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:53:45.775971Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 2,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.54,
+    "input_tokens": 55,
+    "output_tokens": 34850,
+    "cache_read_tokens": 3001054,
+    "cache_write_tokens": 222729
+   },
+   "context": {
+    "used_tokens": 141254,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "abp",
+   "id": "session_016CrbJLnbr219cU3eVRGxBW",
+   "title": "cl-6.abp@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:54:49.083836Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 8,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 5.97,
+    "input_tokens": 13506,
+    "output_tokens": 77451,
+    "cache_read_tokens": 34082024,
+    "cache_write_tokens": 435020
+   },
+   "context": {
+    "used_tokens": 284430,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ],
+   "budget_per_day_usd": 25
+  },
+  {
+   "agent": "journalist",
+   "id": "session_016CrbJNYGCQ9RLyq8e7aVU7",
+   "title": "cl-6.journalist@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:55:53.512027Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 9,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 10.69,
+    "input_tokens": 1107,
+    "output_tokens": 24315,
+    "cache_read_tokens": 8083191,
+    "cache_write_tokens": 2409175
+   },
+   "context": {
+    "used_tokens": 415311,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ],
+   "budget_per_day_usd": 35
+  },
+  {
+   "agent": "devops",
+   "id": "session_016CrbJK7qgEKhvrRXNs9wCo",
+   "title": "cl-6.devops@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:55:55.727868Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 4,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 1.09,
+    "input_tokens": 1071,
+    "output_tokens": 13584,
+    "cache_read_tokens": 3125807,
+    "cache_write_tokens": 159785
+   },
+   "context": {
+    "used_tokens": 126589,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ],
+   "budget_per_day_usd": 20
+  },
+  {
+   "agent": "accountant@dinis",
+   "id": "session_016CrbJKYfRDvxNCKWagJ9Sc",
+   "title": "cl-6.accountant@dinis",
+   "model": "sonnet",
+   "status": "idle",
+   "created_at": "2026-11-26T16:55:57.913548Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 2,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.56,
+    "input_tokens": 32,
+    "output_tokens": 9591,
+    "cache_read_tokens": 1473220,
+    "cache_write_tokens": 77875
+   },
+   "context": {
+    "used_tokens": 108169,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  },
+  {
+   "agent": "devops",
+   "id": "session_016CrbJJVpVCBhFkRqjyY2C9",
+   "title": "[ARCHIVED, started in error 26 Nov 16:58] cl-6.devops@PrompTugal.dinis",
+   "model": "sonnet",
+   "status": "archived",
+   "created_at": "2026-11-26T16:58:02.594947Z",
+   "read_at": "2026-11-26T21:14:58Z",
+   "worker_epoch": 1,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 0.47,
+    "input_tokens": 23,
+    "output_tokens": 3925,
+    "cache_read_tokens": 974009,
+    "cache_write_tokens": 82315
+   },
+   "context": {
+    "used_tokens": 106722,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)",
+    "archived and replaced (title says so); totals are final"
+   ],
+   "budget_per_day_usd": 20
+  },
+  {
+   "agent": "conductor@SovereignWebsite.dinis",
+   "id": "session_016CrbJMEoSe4amZo797Zpta",
+   "title": "cl-6.conductor@SovereignWebsite.dinis",
+   "model": "opus",
+   "status": "idle",
+   "created_at": "2026-11-26T16:59:39.816353Z",
+   "read_at": "2026-11-26T21:14:50Z",
+   "worker_epoch": 3,
+   "repos": 1,
+   "totals": {
+    "cost_usd": 5.76,
+    "input_tokens": 592,
+    "output_tokens": 24751,
+    "cache_read_tokens": 5720656,
+    "cache_write_tokens": 514048
+   },
+   "context": {
+    "used_tokens": 217547,
+    "max_tokens": 1000000,
+    "used_at_1554": null
+   },
+   "since_1554_utc": null,
+   "since_0000_utc": "zero baseline (created after 15:54): totals are the delta",
+   "reset_or_replaced": [
+    "not in the 15:54 reading (new session, or one outside that title set)"
+   ]
+  }
+ ],
+ "like_for_like_vs_1555": {
+  "sessions": 52,
+  "cost_before": 595.54,
+  "cost_after": 1106.01,
+  "delta": 510.47
+ },
+ "over_budget_by_role_sum": [
+  {
+   "role": "conductor",
+   "cost_usd": 144.81,
+   "per_day_usd": 50
+  },
+  {
+   "role": "abp",
+   "cost_usd": 32.42,
+   "per_day_usd": 25
+  },
+  {
+   "role": "journalist",
+   "cost_usd": 41.54,
+   "per_day_usd": 35
+  },
+  {
+   "role": "dev",
+   "cost_usd": 68.43,
+   "per_day_usd": 60
+  },
+  {
+   "role": "security",
+   "cost_usd": 244.98,
+   "per_day_usd": 30
+  },
+  {
+   "role": "devops",
+   "cost_usd": 28.18,
+   "per_day_usd": 20
+  },
+  {
+   "role": "translator",
+   "cost_usd": 22.77,
+   "per_day_usd": 10
+  },
+  {
+   "role": "backup",
+   "cost_usd": 8.8,
+   "per_day_usd": 5
+  }
+ ],
+ "roles_without_budget": [
+  "infra",
+  "data",
+  "weather",
+  "travel",
+  "civic",
+  "startups",
+  "library",
+  "signals",
+  "cyber",
+  "events",
+  "live",
+  "videos",
+  "bulletins",
+  "fringe",
+  "swarm",
+  "places",
+  "rights",
+  "telemetry",
+  "reviewer",
+  "curator",
+  "checker",
+  "programme",
+  "analyst",
+  "place.london",
+  "data.london"
+ ],
+ "notes": [
+  "total_cost_usd covers 69 sessions including other accounts' sessions (SovereignWebsite and others) that were not in the 15:54 set; use like_for_like_vs_1555 for the change.",
+  "over_budget_by_role_sum adds a role's PrompTugal-titled sessions (old, replaced and new); the budgets are the website's board/budgets.json of 16 Nov, per day, old names, a measure and not a reason to stop an agent. The sessions' totals run from creation (22:48Z 25 Nov to 21:17Z 26 Nov), longer than a calendar day for three of them.",
+  "Worker restarts are counted from worker_epoch, which rose in almost every session since 15:54; whether a restart is a reset of context is not shown by usage data (context fell only in abp and dev)."
+ ]
+}

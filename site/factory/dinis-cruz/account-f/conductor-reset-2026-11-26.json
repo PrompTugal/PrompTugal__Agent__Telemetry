@@ -52,11 +52,38 @@
    "repositories_attached": 1,
    "model": "opus",
    "note": "first reading, two minutes after the session was created"
+  },
+  {
+   "read_at": "2026-11-26T21:15:24Z",
+   "cost_usd": 53.51,
+   "input_tokens": 9050,
+   "output_tokens": 115831,
+   "cache_read_tokens": 68807777,
+   "cache_write_tokens": 4671650,
+   "context_used_tokens": 691075,
+   "worker_epoch": 13,
+   "repositories_attached": 1,
+   "source": "usage-2026-11-26-2117.json (wake 21:14 UTC)"
   }
  ],
  "next": "Per wake (my wakes: 21:13 and 10:13 Lisbon, which is UTC in November): add one reading for the new session and, for comparison, the old session's final totals above; keep three wakes each side. No 'wake' exists for the old session after the reset, so its three 'before' readings are 02:38, 11:15 and 15:54 UTC (earlier readings of mine, not scheduled wakes).",
  "limits": [
   "I have no reading between 15:54 and 16:38, so 'just before' is the archived session's final totals (updated 16:37:49Z), which cover the whole life of the old session, not an interval.",
   "Whether the new conductor spends less depends on what it reads; usage data alone does not say why."
- ]
+ ],
+ "rates": {
+  "old_session": {
+   "hours": 17.82,
+   "usd_per_hour": 5.12,
+   "output_tokens_per_hour": 29400,
+   "cache_read_tokens_per_hour": 17564156
+  },
+  "new_session": {
+   "hours": 4.65,
+   "usd_per_hour": 11.51,
+   "output_tokens_per_hour": 24910,
+   "cache_read_tokens_per_hour": 14797371
+  },
+  "note": "Hours are wall-clock between creation and last update (old) or my reading (new), not active time; the new session was onboarding (keys, state files, 194 lost data files, per its own summary at 16:40) and an early rate may not hold. One reading each side so far."
+ }
 }
