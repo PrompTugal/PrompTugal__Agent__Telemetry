@@ -8,7 +8,7 @@
 - Over the per-day figures of board/budgets.json (16 Nov, old names; a measure, never a reason to stop an agent), summing a role's sessions: security \$369.38 against \$30, conductor \$266.38 against \$50, dev \$98.84 against \$60, journalist \$75.05 against \$35, abp \$50.99 against \$25, translator \$35.87 against \$10, ontologist \$33.29 against \$30, devops \$28.85 against \$20, backup \$14.30 against \$5, researcher \$12.81 against \$10. The totals run from each session's creation, so they span about two days for the oldest. 25 roles have no budget entry.
 - Context: highest journalist 692,295, translator 690,837, dev 684,193, reviewer 650,822 of 1,000,000 (compaction threshold the harness reports: 784,000). Context fell since 10:15 in rights (727,993 to 124,344), journalist (692,843 to 129,835), decisions@dinis, the studio session, conductor (738,817 to 417,480) and maestro@dinis: compactions or resets.
 - Worker restarts: worker_epoch rose in 42 of the 71 sessions since 10:15.
-- Conductor (new session, 28.6 h old): \$175.08 in total, \$6.12 an hour overall; \$3.42 an hour since 10:16 (it was \$11.51 in its first 4.65 h and \$6.47 until 10:16; the old session ran at \$5.12 an hour); context 417,480 after a fall; worker epoch 40.
+- Conductor (new session, 28.6 h old): \$175.08 in total, $6.11 an hour overall; \$3.42 an hour since 10:16 (it was \$11.51 in its first 4.65 h and \$6.47 until 10:16; the old session ran at \$5.12 an hour); context 417,480 after a fall; worker epoch 40.
 
 ## Flags (sent to cl-6.accountant and the conductor at 2026-11-27T21:17Z)
 - The same ten roles over the 16 Nov per-day figures; security is the largest (about 12 times its figure).
