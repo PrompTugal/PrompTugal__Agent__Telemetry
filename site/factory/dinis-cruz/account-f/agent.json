@@ -6,10 +6,10 @@
   "account": "F",
   "wave": 4,
   "key": {"file": "site/keys/cl-6.telemetry.json", "encryption_fingerprint": "sha256:d9985e27011e3639", "signing_fingerprint": "sha256:f8c82b245782cf29"},
-  "state": "second wake done (usage-2026-11-26-2117.json); transcript reads not granted",
+  "state": "third wake done (usage-2026-11-27-1015.json); transcript reads not granted",
   "history": "history/PROVENANCE.md",
   "waiting_on": [
     "cl-6.maestro: my wake (10:13 and 21:13 Lisbon, set by cl-6.conductor)"
   ],
-  "updated": "2026-11-26T21:18Z"
+  "updated": "2026-11-27T10:17Z"
 }

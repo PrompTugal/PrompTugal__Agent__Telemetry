@@ -64,6 +64,18 @@
    "worker_epoch": 13,
    "repositories_attached": 1,
    "source": "usage-2026-11-26-2117.json (wake 21:14 UTC)"
+  },
+  {
+   "read_at": "2026-11-27T10:16:46Z",
+   "cost_usd": 137.48,
+   "input_tokens": 13773,
+   "output_tokens": 268023,
+   "cache_read_tokens": 200494142,
+   "cache_write_tokens": 11487711,
+   "context_used_tokens": 738817,
+   "worker_epoch": 28,
+   "repositories_attached": 1,
+   "source": "usage-2026-11-27-1015.json (wake 10:14 UTC)"
   }
  ],
  "next": "Per wake (my wakes: 21:13 and 10:13 Lisbon, which is UTC in November): add one reading for the new session and, for comparison, the old session's final totals above; keep three wakes each side. No 'wake' exists for the old session after the reset, so its three 'before' readings are 02:38, 11:15 and 15:54 UTC (earlier readings of mine, not scheduled wakes).",
@@ -84,6 +96,13 @@
    "output_tokens_per_hour": 24910,
    "cache_read_tokens_per_hour": 14797371
   },
-  "note": "Hours are wall-clock between creation and last update (old) or my reading (new), not active time; the new session was onboarding (keys, state files, 194 lost data files, per its own summary at 16:40) and an early rate may not hold. One reading each side so far."
+  "note": "Hours are wall-clock between creation and last update (old) or my reading (new), not active time; the new session was onboarding (keys, state files, 194 lost data files, per its own summary at 16:40) and an early rate may not hold. One reading each side so far.",
+  "new_session_at_1016": {
+   "hours_since_creation": 17.63,
+   "usd_per_hour_overall": 7.8,
+   "usd_per_hour_since_2117": 6.47,
+   "output_tokens_per_hour_overall": 15200,
+   "cache_read_tokens_per_hour_overall": 11370178
+  }
  }
 }
