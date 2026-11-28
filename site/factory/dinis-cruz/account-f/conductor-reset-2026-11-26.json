@@ -88,6 +88,18 @@
    "worker_epoch": 40,
    "repositories_attached": 1,
    "source": "usage-2026-11-27-2115.json (wake 21:14 UTC)"
+  },
+  {
+   "read_at": "2026-11-28T10:16:37Z",
+   "cost_usd": 276.52,
+   "input_tokens": 87081,
+   "output_tokens": 374965,
+   "cache_read_tokens": 348067741,
+   "cache_write_tokens": 24869665,
+   "context_used_tokens": 560491,
+   "worker_epoch": 63,
+   "repositories_attached": 1,
+   "source": "usage-2026-11-28-1015.json (wake 10:14 UTC)"
   }
  ],
  "next": "Per wake (my wakes: 21:13 and 10:13 Lisbon, which is UTC in November): add one reading for the new session and, for comparison, the old session's final totals above; keep three wakes each side. No 'wake' exists for the old session after the reset, so its three 'before' readings are 02:38, 11:15 and 15:54 UTC (earlier readings of mine, not scheduled wakes).",
@@ -122,6 +134,13 @@
    "usd_per_hour_since_1016": 3.42,
    "output_tokens_per_hour_since_1016": 3538,
    "cache_read_tokens_per_hour_since_1016": 3702153
+  },
+  "new_session_at_1016_28Nov": {
+   "hours_since_creation": 41.63,
+   "usd_per_hour_overall": 6.64,
+   "usd_per_hour_since_2116": 7.8,
+   "output_tokens_per_hour_since_2116": 5233,
+   "cache_read_tokens_per_hour_since_2116": 8220103
   }
  },
  "readings_per_wake_so_far": {

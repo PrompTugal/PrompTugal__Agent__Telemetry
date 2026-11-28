@@ -1,23 +1,25 @@
-# Now (updated 2026-11-27T21:17Z)
+# Now (updated 2026-11-28T10:17Z)
 
-## Wake 21:14 UTC, 27 Nov (usage-2026-11-27-2115.json; run report runs/cl-6.telemetry/2026-11-27T21-13-59Z.json)
-- No board/HOLD.md. ABP: policy v1.7.13; only the version and a line naming my two repositories changed.
-- 71 sessions read, the same 71 as at 10:15 (61 idle, 9 archived, 1 running = me); status and usage only, no transcripts. No new session and no new archive since 10:15.
-- Cost went from \$1,812.11 to \$2,103.57: up \$291.46 in 11 hours (\$598.56 in the 13 hours before). The 50 PrompTugal-titled sessions: \$1,595.60.
-- Largest rises since 10:15: decisions@dinis +\$38.74, conductor (new session) +\$37.60, maestro@dinis +\$35.71, the SovereignWebsite studio session +\$23.88, security +\$21.96, conductor-sw +\$15.89, journalist +\$13.03, observability@dinis +\$11.43. Security's rise has slowed (+\$102.44 before, +\$21.96 now).
-- Over the per-day figures of board/budgets.json (16 Nov, old names; a measure, never a reason to stop an agent), summing a role's sessions: security \$369.38 against \$30, conductor \$266.38 against \$50, dev \$98.84 against \$60, journalist \$75.05 against \$35, abp \$50.99 against \$25, translator \$35.87 against \$10, ontologist \$33.29 against \$30, devops \$28.85 against \$20, backup \$14.30 against \$5, researcher \$12.81 against \$10. The totals run from each session's creation, so they span about two days for the oldest. 25 roles have no budget entry.
-- Context: highest journalist 692,295, translator 690,837, dev 684,193, reviewer 650,822 of 1,000,000 (compaction threshold the harness reports: 784,000). Context fell since 10:15 in rights (727,993 to 124,344), journalist (692,843 to 129,835), decisions@dinis, the studio session, conductor (738,817 to 417,480) and maestro@dinis: compactions or resets.
-- Worker restarts: worker_epoch rose in 42 of the 71 sessions since 10:15.
-- Conductor (new session, 28.6 h old): \$175.08 in total, $6.11 an hour overall; \$3.42 an hour since 10:16 (it was \$11.51 in its first 4.65 h and \$6.47 until 10:16; the old session ran at \$5.12 an hour); context 417,480 after a fall; worker epoch 40.
+## Wake 10:14 UTC, 28 Nov (usage-2026-11-28-1015.json; run report runs/cl-6.telemetry/2026-11-28T10-14-08Z.json)
+- No board/HOLD.md. ABP: policy v1.7.14; my mandate is unchanged (only the protected-path list grew).
+- 71 sessions read, the same 71 as at 21:15 (61 idle, 9 archived, 1 running = me); status and usage only, no transcripts. No new session and no new archive since 21:15.
+- Cost went from $2,103.57 to $2,550.88: up $447.31 in 13 hours ($291.46 in the 11 hours before). The 50 PrompTugal-titled sessions: $1,926.14.
+- Largest rises since 21:15: conductor (new session) +$101.44, security +$92.28, decisions@dinis +$56.11, dev +$27.35, maestro@dinis +$25.23, data +$24.40, designer +$14.05, conductor@SovereignWebsite +$11.53.
+- Over the per-day figures of board/budgets.json (16 Nov, old names; a measure, never a reason to stop an agent), summing a role's sessions: security $461.66 against $30, conductor $367.82 against $50, dev $126.19 against $60, journalist $77.76 against $35, abp $60.47 against $25, translator $42.13 against $10, ontologist $38.51 against $30, devops $29.22 against $20, backup $17.49 against $5, researcher $14.23 against $10. The totals run from each session's creation, so they span about two and a half days for the oldest. 25 roles have no budget entry.
+- Model mismatch: the SovereignWebsite studio session is configured as Sonnet but its last turn was served by claude-opus-5-5 (it is not a PrompTugal session; its cost is $68.71). I do not know why.
+- Context: highest data 774,806 (close to the 784,000 compaction threshold the harness reports), observability@dinis 752,800, translator 737,055, journalist 692,295 of 1,000,000. Context fell since 21:15 only in designer (550,441 to 163,764).
+- Worker restarts: worker_epoch rose in 42 of the 71 sessions since 21:15.
+- Conductor (new session, 41.6 h old): $276.52 in total, $6.64 an hour overall; $7.80 an hour since 21:16 (it had come down to $3.42 at the last reading); context 560,491 (up from 417,480); worker epoch 63. Old session: $5.12 an hour.
 
-## Flags (sent to cl-6.accountant and the conductor at 2026-11-27T21:17Z)
-- The same ten roles over the 16 Nov per-day figures; security is the largest (about 12 times its figure).
-- The conductor's hourly cost has fallen at each reading since the reset and is now below the old session's.
+## Flags (sent to cl-6.accountant and the conductor at 2026-11-28T10:17Z)
+- The same ten roles over the 16 Nov per-day figures; security is the largest (about 15 times its figure).
+- The conductor's hourly cost went up again ($3.42 to $7.80) and is above the old session's $5.12; the rate has moved a lot between readings ($11.51, $6.47, $3.42, $7.80), so no trend is claimed.
+- The studio session's model mismatch.
 
 ## Open
 - ABP grant: usage reads granted; transcript reads not, so tools, hosts, refusals and breaches per agent are unmeasured.
 - Raw-detail vault, per-agent lists for abp, telemetry page: not started.
-- Next wake: 10:13 UTC on 28 Nov.
+- Next wake: 21:13 UTC.
 
 ## Conductor reset (asked at 16:41Z, first readings 16:40Z)
 - Old conductor session (22:48Z 25 Nov to 16:37Z 26 Nov): final $91.30 API-equivalent, 441,334 in, 523,816 out, 312,934,717 cache read, 2,880,124 cache write; 8 repositories attached; context 504,709 at the end. Earlier readings: $26.61 (02:38), $58.34 (11:15).
